@@ -1,0 +1,69 @@
+.testHeader{font-family:Times New Roman;
+	font-size: 110%;
+	color: navy;
+	font-weight: bold;
+	align : center;
+}
+div.question{
+	border: 1px solid #FF8C00;
+	background : #FFEFD5;
+	margin-left : 16px;
+	margin-right : 16px;
+	padding: 8px 8px 8px 8px;
+	font-weight : bold;
+	font-size: 125%;
+}
+div.answers {
+	border: 1px solid #708090;
+	background : #DCDCDC;
+	margin-left : 16px;
+	margin-right : 16px;
+	padding: 8px 8px 8px 8px;
+}
+A.answer{
+	display : block;
+	text-decoration : none;
+	color: black;
+	border: 1px dotted #DCDCDC;
+}
+A.answer:hover{
+	color: red;
+	background-color : #F0FFFF;
+	border: 1px dotted #FFA500;
+}
+a.gg:hover {color:navy; background:yellow}
+a.gg {text-decoration:none; display : block;color:red}
+div.note{
+	border-top: 1px solid  #708090;
+	margin-left : 8px;
+	margin-right : 8px;
+	padding: 8px 8px 8px 8px;
+	font-style : italic;
+	font-size: 90%;
+}
+input.clock{
+	border : none;
+	background : #BFCFBF;
+}
+input.backButton{
+	text-align: center;
+                                   	}
+
+input.backButton1{
+	text-align: center;
+                  background : silver;
+	}
+span.mat {font-family:symbol;}
+p.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+h4{margin:0cm;}
+table(border : none;)
+

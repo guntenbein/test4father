@@ -1,0 +1,93 @@
+<html>
+<head>
+<script>
+var Numb_razdel;
+var Numb_tema;
+var s_za=false;
+var obuth=false;
+var zaothnoe=false;
+var vnutr=false;
+var Y_razdel=false;
+var Itog=true;
+</script>
+<SCRIPT  language="JavaScript" src="../fort.js"></SCRIPT>
+<LINK rel="stylesheet" href="../style_t.css" type="text/css">
+<META http-equiv=Content-Type content="text/html; charset=windows-1251">
+<SCRIPT  language="JavaScript" src="../init_global.js"></SCRIPT>
+
+
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<link href="../jquery-confirm.css" rel="stylesheet" type="text/css">
+<script src="../jquery-confirm.js"></script>
+<style>
+body{background:#BFCFBF;}
+</style>
+
+
+<script>
+for(i=1;i<=Max_tem;i++) document.write("<SCRIPT  language=\"JavaScript\" src=\"../tema"+i+"/"+i+"vopros_otvet.js\"><\/SCRIPT>");
+for(i=1;i<=Max_tem;i++) document.write("<SCRIPT  language=\"JavaScript\" src=\"../tema"+i+"/"+i+"mas_PHP.js\"><\/SCRIPT>");
+</SCRIPT>
+<SCRIPT  language="JavaScript" src="../func.js"></SCRIPT>
+
+</head>
+<body id="mybody" BgColor="#BFCFBF">
+
+<script>
+//alert("1");
+shapka_i(2);
+gg=false;
+//alert("2");
+f_menu(false);
+//alert("3");
+for(it=1;it<=Max_razdel;it++){
+if(Name_razdel[it]!=null){
+K_V_R_d[it]=0;
+K_V_R_z[it]=0;
+Numb_razdel=it;
+kpu=-1;
+Prov_tem();
+for(ki=0;ki<=kpu;ki++) {Numb_tema=tema_N[ki];
+                                          trans0();
+                                           K_V_R_d[it]+=Kol_dnevn["tema"+Numb_tema];
+                                           K_V_R_z[it]+=Kol_zaoth["tema"+Numb_tema];
+                                                                                  }
+}}
+
+rasp_v_razd(zaothnoe);
+//alert("4");
+for(it=1;it<=Max_razdel;it++){// alert("5");
+if(Kol_razd_v[it]>0){
+Glob_kol_v=Kol_razd_v[it];
+kpu=-1;
+Numb_razdel=it;
+Prov_tem();
+//alert("6");
+for(ki=0;ki<=kpu;ki++){
+Numb_tema=tema_N[ki];
+trans0();
+                       }
+//alert("7");
+Raspred_v(1);
+//alert("8");
+for(ki=0;ki<=kpu;ki++){
+Numb_tema=tema_N[ki];
+trans();
+//alert("7");
+if(no_error) { //alert("8");
+             globa(true);
+               //alert("9");
+               }
+                      }
+
+}}
+
+if(no_error)  {//alert("15");
+              menu_ball(); }
+
+
+   
+</script>
+</body>
+</html>

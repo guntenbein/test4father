@@ -1,0 +1,65 @@
+<HTML>
+<HEAD>
+<SCRIPT>
+var Y_razdel=false;
+var Nu_razdel;
+var testWindow=null;
+var windowOpened=false;
+</SCRIPT>
+<SCRIPT  language="JavaScript" src="fort.js"></SCRIPT>
+<SCRIPT  language="JavaScript" src="type_browser.js"></SCRIPT>
+<SCRIPT  language="JavaScript" src="init_global.js"></SCRIPT>
+<SCRIPT>
+//if(!isIE){alert("тест работает только в Internet Exproler. Пож.смените браузер");close();}
+for(i=1;i<=Max_tem;i++) document.write("<SCRIPT  language=\"JavaScript\" src=\"tema"+i+"/"+i+"vopros_otvet.js\"><\/SCRIPT>");
+for(i=1;i<=Max_tem;i++) document.write("<SCRIPT  language=\"JavaScript\" src=\"tema"+i+"/"+i+"mas_PHP.js\"><\/SCRIPT>");
+</SCRIPT>
+<SCRIPT  language="JavaScript" src="func.js"></SCRIPT>
+<LINK rel="stylesheet" href="style.css" type="text/css">
+<LINK rel="stylesheet" href="style_t.css" type="text/css">
+<meta charset="windows-1251">
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<link href="jquery-confirm.css" rel="stylesheet" type="text/css">
+<script src="jquery-confirm.js"></script>
+<SCRIPT>
+function m_vopr(){K_ris_d=K_ris; K_ris_z=K_zaoth; 
+                                                  for(i=0;i<K_ris;i++) if(!Z0[i+1]) {K_ris_d--; if(Priznak_z[i]) K_ris_z--;}
+                                                  if(Kol_v[tema]>K_ris_d) Kol_v[tema]=K_ris_d; 
+                                                  if( zaothnoe) if(Kol_v[tema]>K_ris_z) Kol_v[tema]=K_ris_z;
+                                                 if(s_za)  if( zaothnoe) Kol_v[tema]=K_ris_z; else Kol_v[tema]=K_ris_d;
+                                                 if(PPP_T) Kol_v[tema]=K_ris;
+                                                 if(s_za){
+                                                 TimeMax=Math.round(TimeMax_v*Kol_v[tema]/60);
+                                                 minutes=TimeMax-1;
+                                                                }
+                                                   for(i=0;i<K_ris;i++) Numb_v[i]=i+1;
+                                                 
+                                                    if(!PPP_T){
+                                                   for(i=0;i<K_ris-1;i++){n=i+Math.floor(Math.random()*(K_ris-i));
+                                                   if(n<=i) n=i; mm=K_ris-i-1; if(n>=mm) n=mm;
+                                                   nn=Numb_v[i]; Numb_v[i]=Numb_v[n];Numb_v[n]=nn;
+                                                   nn=Priznak_z[i];Priznak_z[i]=Priznak_z[n]; Priznak_z[n]=nn;
+                                                   nn=Priz_radio[i]; Priz_radio[i]=Priz_radio[n]; Priz_radio[n]=nn; 
+                                                    nn=Z0[i+1]; Z0[i+1]=Z0[n+1]; Z0[n+1]=nn; 
+                                                   
+                                                                               }
+                                                                               }
+                                          //       for(i=0;i<K_ris;i++) alert(" "+Numb_v[i]);
+                                                      }
+                                                   document.write(wwww(W_105));
+
+function m_otv(Numb_vopr,Kol_otv){ rang_otv[Numb_vopr-1]=new Array(Kol_otv);
+              for(mj=0;mj<Kol_otv;mj++)  {rang_otv[Numb_vopr-1][mj]=mj+1;}
+              if(!PPP_T){   
+                                                  for(i=0;i<Kol_otv-1;i++){
+                                                  fn=Math.random()*(Kol_otv-i);
+                                                  n=i+Math.floor(fn);
+                                                  if(n<=i) n=i; mm=Kol_otv-i-1; if(n>=mm) n=mm; 
+                                                 nnm=rang_otv[Numb_vopr-1][i];   
+                                                  rang_otv[Numb_vopr-1][i]=rang_otv[Numb_vopr-1][n];
+                                                  rang_otv[Numb_vopr-1][n]=nnm;
+              }  } }
+
+</script>
+</HTML>

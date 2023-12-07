@@ -1,0 +1,90 @@
+body {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 12pt;
+	color: black;
+	}
+.big {
+	font-size : 18pt;
+	
+	}
+
+body.fon {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 12pt;
+	color: black;
+	background : #BFCFBF;
+}
+
+div.testHeader{
+	font-size: 110%;
+	color: navy;
+	font-weight: bold;
+	text-align : center;
+	border-bottom: 1px solid  #708090;
+	margin-left : 8px;
+	margin-right : 8px;
+}
+div.question{
+	border: 1px solid #FF8C00;
+	background : #FFEFD5;
+	margin-left : 16px;
+	margin-right : 16px;
+	padding: 8px 8px 8px 8px;
+	font-weight : bold;
+	font-size: 125%;
+}
+div.answers {
+	border: 1px solid #708090;
+	background : #DCDCDC;
+	margin-left : 16px;
+	margin-right : 16px;
+	padding: 8px 8px 8px 8px;
+}
+A.answer{
+	display : block;
+	text-decoration : none;
+	color: black;
+	border: 1px dotted #DCDCDC;
+}
+A.answer:hover{
+	color: red;
+	background-color : #F0FFFF;
+	border: 1px dotted #FFA500;
+}
+
+A.mail{color: blue;}
+
+div.note{
+	border-top: 1px solid  #708090;
+	margin-left : 8px;
+	margin-right : 8px;
+	padding: 8px 8px 8px 8px;
+	font-style : italic;
+	font-size: 90%;
+}
+input.clock{
+	border : none;
+	background : #F0FFFF;
+}
+input.backButton{
+	border: 1px solid black;
+	text-align: center;
+	background : silver;
+	}
+p.MsoNormal
+{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:1.0cm;
+	line-height:150%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+
+p.MsoNormal3
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+
+h4{margin:0cm;}
+table{border:none;}

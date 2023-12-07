@@ -1,0 +1,316 @@
+
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Courier;
+	panose-1:2 7 4 9 2 2 5 2 4 4;}
+@font-face
+	{font-family:"Tms Rmn";
+	panose-1:2 2 6 3 4 5 5 2 3 4;}
+@font-face
+	{font-family:Helv;
+	panose-1:2 11 6 4 2 2 2 3 2 4;}
+@font-face
+	{font-family:"New York";
+	panose-1:2 4 5 3 6 5 6 2 3 4;}
+@font-face
+	{font-family:System;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+@font-face
+	{font-family:Batang;
+	panose-1:2 3 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:PMingLiU;
+	panose-1:2 2 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"MS Gothic";
+	panose-1:2 11 6 9 7 2 5 8 2 4;}
+@font-face
+	{font-family:Dotum;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:SimHei;
+	panose-1:2 1 6 9 6 1 1 1 1 1;}
+@font-face
+	{font-family:MingLiU;
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
+@font-face
+	{font-family:Mincho;
+	panose-1:2 2 6 9 4 3 5 8 3 5;}
+@font-face
+	{font-family:Gulim;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:Century;
+	panose-1:2 4 6 4 5 5 5 2 3 4;}
+@font-face
+	{font-family:"Angsana New";
+	panose-1:2 2 6 3 5 4 5 2 3 4;}
+@font-face
+	{font-family:"Cordia New";
+	panose-1:2 11 3 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Mangal;
+	panose-1:2 4 5 3 5 2 3 3 2 2;}
+@font-face
+	{font-family:Latha;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Sylfaen;
+	panose-1:1 10 5 2 5 3 6 3 3 3;}
+@font-face
+	{font-family:Vrinda;
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:Raavi;
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:Shruti;
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:Sendnya;
+	panose-1:0 0 4 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Gautami;
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:Tunga;
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Estrangelo Edessa";
+	panose-1:3 8 6 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Arial Unicode MS";
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal_2, li.MsoNormal_2, div.MsoNormal_2
+	{margin:0cm;
+	margin-bottom:.0_2001pt;
+	font-size:12.0_2pt;
+	font-family:"Times New Roman","serif";}
+h3
+	{margin-top:12.0_2pt;
+	margin-right:0cm;
+	margin-bottom:3.0_2pt;
+	margin-left:36.0_2pt;
+	text-align:justify;
+	text-indent:-18.0_2pt;
+	page-break-after:avoid;
+	text-autospace:none;
+	font-size:12.0_2pt;
+	font-family:"Arial","sans-serif";}
+h4
+	{mso-style-link:"\0417\0430\0433\043E\043B\043E\0432\043E\043A 4 \0417\043D\0430\043A";
+	margin-top:12.0_2pt;
+	margin-right:0cm;
+	margin-bottom:3.0_2pt;
+	margin-left:0cm;
+	page-break-after:avoid;
+	font-size:14.0_2pt;
+	font-family:"Calibri","sans-serif";}
+span.a_2
+	{mso-style-name:\0412\0435\0441\041E\0442\0432\0435\0442\0430;
+	font-family:"Arial","sans-serif";
+	color:windowtext;
+	position:relative;
+	top:1.0_2pt;
+	letter-spacing:0pt;
+	border:solid windowtext 1.0_2pt;
+	padding:0cm;
+	background:#FFFFCC;
+	font-weight:bold;}
+span.a_20
+	{mso-style-name:\041F\0440\043E\043F\0443\0441\043A;
+	font-family:"Arial","sans-serif";
+	border:solid windowtext 1.0_2pt;
+	padding:0cm;
+	background:#FFFFCC;
+	font-weight:bold;}
+p.a_21, li.a_21, div.a_21
+	{mso-style-name:\041A\043E\043C\043C\0435\043D\0442\0430\0440\0438\0439;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0_2pt;
+	margin-left:1.0_2cm;
+	font-size:10.0_2pt;
+	font-family:"Verdana","sans-serif";
+	color:blue;}
+p.a_22, li.a_22, div.a_22
+	{mso-style-name:\0423\0442\0432\0435\0440\0436\0434\0435\043D\0438\0435;
+	margin-top:0cm;
+	margin-right:2.0_2cm;
+	margin-bottom:0cm;
+	margin-left:14.2pt;
+	margin-bottom:.0_2001pt;
+	background:#E7F1FF;
+	font-size:10.0_2pt;
+	font-family:"Verdana","sans-serif";}
+p.a_23, li.a_23, div.a_23
+	{mso-style-name:\0412\043E\043F\0440\041C\043D\043E\0436\0412\044B\0431\043E\0440;
+	margin-top:12.0_2pt;
+	margin-right:0cm;
+	margin-bottom:6.0_2pt;
+	margin-left:25.1pt;
+	text-indent:-18.0_2pt;
+	font-size:12.0_2pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.a_24, li.a_24, div.a_24
+	{mso-style-name:\041D\0435\0432\0435\0440\043D\044B\0439\041E\0442\0432\0435\0442;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0_2pt;
+	margin-left:18.0_2pt;
+	text-indent:-18.0_2pt;
+	font-size:10.0_2pt;
+	font-family:"Verdana","sans-serif";
+	color:red;}
+p.a_25, li.a_25, div.a_25
+	{mso-style-name:\0412\0435\0440\043D\044B\0439\041E\0442\0432\0435\0442;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0_2pt;
+	margin-left:18.0_2pt;
+	text-indent:-18.0_2pt;
+	font-size:10.0_2pt;
+	font-family:"Verdana","sans-serif";
+	color:green;}
+p.a_26, li.a_26, div.a_26
+	{mso-style-name:\041E\0442\0432\0435\0442\041D\0430\0423\0442\0432\0435\0440\0436\0434;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0_2pt;
+	margin-left:2.0_2cm;
+	text-align:right;
+	background:#FFFFCC;
+	font-size:10.0_2pt;
+	font-family:"Verdana","sans-serif";}
+p.a_27, li.a_27, div.a_27
+	{mso-style-name:\0412\043E\043F\0440\041A\043E\0440\043E\0442\043A\0438\0439\041E\0442\0432;
+	margin-top:12.0_2pt;
+	margin-right:0cm;
+	margin-bottom:6.0_2pt;
+	margin-left:25.1pt;
+	text-indent:-18.0_2pt;
+	font-size:12.0_2pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.a_28, li.a_28, div.a_28
+	{mso-style-name:\0412\043E\043F\0440\041F\0440\043E\043F\0443\0449\0421\043B\043E\0432\043E;
+	margin-top:12.0_2pt;
+	margin-right:0cm;
+	margin-bottom:6.0_2pt;
+	margin-left:25.1pt;
+	text-indent:-18.0_2pt;
+	font-size:12.0_2pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.a_29, li.a_29, div.a_29
+	{mso-style-name:\0412\043E\043F\0440\041D\0430\0421\043E\043F\043E\0441\0442\0430\0432\043B\0435\043D\0438\0435;
+	margin-top:12.0_2pt;
+	margin-right:0cm;
+	margin-bottom:6.0_2pt;
+	margin-left:25.1pt;
+	text-indent:-18.0_2pt;
+	font-size:12.0_2pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.a_2a, li.a_2a, div.a_2a
+	{mso-style-name:\0412\0435\0440\043D\043E\0435\0423\0442\0432\0435\0440\0436\0434;
+	margin-top:12.0_2pt;
+	margin-right:0cm;
+	margin-bottom:6.0_2pt;
+	margin-left:25.1pt;
+	text-indent:-18.0_2pt;
+	font-size:12.0_2pt;
+	font-family:"Arial","sans-serif";
+	color:green;
+	font-weight:bold;}
+p.a_2b, li.a_2b, div.a_2b
+	{mso-style-name:\041D\0435\0432\0435\0440\043D\043E\0435\0423\0442\0432\0435\0440\0436\0434;
+	margin-top:12.0_2pt;
+	margin-right:0cm;
+	margin-bottom:6.0_2pt;
+	margin-left:25.1pt;
+	text-indent:-18.0_2pt;
+	font-size:12.0_2pt;
+	font-family:"Arial","sans-serif";
+	color:red;
+	font-weight:bold;}
+p.a_2c, li.a_2c, div.a_2c
+	{mso-style-name:\0412\043E\043F\0440\0427\0438\0441\043B\043E\0432\043E\0439;
+	margin-top:12.0_2pt;
+	margin-right:0cm;
+	margin-bottom:6.0_2pt;
+	margin-left:25.1pt;
+	text-indent:-18.0_2pt;
+	font-size:12.0_2pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+span.4_2
+	{mso-style-name:"\0417\0430\0433\043E\043B\043E\0432\043E\043A 4 \0417\043D\0430\043A";
+	mso-style-link:"\0417\0430\0433\043E\043B\043E\0432\043E\043A 4";
+	font-family:"Calibri","sans-serif";
+	font-weight:bold;}
+p.0_2, li.0_2, div.0_2
+	{mso-style-name:\0422\0430\0431_\0437\0430\0433_0;
+	margin-top:4.0_2pt;
+	margin-right:0cm;
+	margin-bottom:4.0_2pt;
+	margin-left:0cm;
+	page-break-after:avoid;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:9.0_2pt;
+	font-family:"Times New Roman","serif";
+	color:black;
+	font-weight:bold;}
+span.msoIns_2
+	{mso-style-name:"";
+	text-decoration:underline;
+	color:teal;}
+span.msoDel_2
+	{mso-style-name:"";
+	text-decoration:line-through;
+	color:red;}
+.MsoChpDefault_2
+	{font-size:10.0_2pt;}
+@page WordSection1
+	{size:612.0_2pt 792.0_2pt;
+	margin:72.0_2pt 90.0_2pt 72.0_2pt 90.0_2pt;}
+div.WordSection1_2
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+
