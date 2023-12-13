@@ -28,6 +28,7 @@ var N_max_v=new Array();
 //var Bas_kol=new Array(401);
 var BBB=new Array();
 var dd;
+alert("gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg");
 document.write(kobra(dalj));
 for(jkkk=0; jkkk<400; jkkk++){
                        BBB[jkkk]=1; 
