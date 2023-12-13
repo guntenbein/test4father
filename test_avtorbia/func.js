@@ -70,6 +70,7 @@ var Numb_v=new Array();
 var kpu=-1;// êîëè÷åñòâî òåì
 var KD=0;
 var KZ=0;
+alert("bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb");
 var sstt="status=no;help=no;dialogHeight='55pt'; dialogWidth='111pt'";
 var Peremesh=new Array();
 var Kol_zaoth=new Array();
