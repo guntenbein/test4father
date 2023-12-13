@@ -85,6 +85,7 @@ var Max_vopros=200;
 var skelet=21;
 var Max_otvet=30;
 var DDD=new Date();
+alert("hhhhhhhhhhhhhhhhhhhhhhhhhhh");
 var T_Second; var T_Minute; var T_Hours; var T_Date; var T_Month; var T_Year; 
 MM=wwww(D_bbb).split(".");
 NNNN=DDD.getMonth(); var NN0=DDD.getDate(); var NN1=NNNN+1; var NN2=DDD.getYear(); 
