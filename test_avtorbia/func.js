@@ -45,7 +45,7 @@ var bok_v=new Array( );
 //for(i=0;i<Kol_v;i++)  bok_v[i]=0;
 var otladka=false;
 var Q1="";
-var K_ris=0;//число вопросов в БД
+var K_ris=0;//Г·ГЁГ±Г«Г® ГўГ®ГЇГ°Г®Г±Г®Гў Гў ГЃГ„
 var kod;
 var Priz_vopros=true;
 var kod_otv=true;
@@ -57,7 +57,7 @@ var Numb_vv=0;
 var Sumn=0;
 var Inok_dd=new Array();
 var NUMB_tec=0;
-var stime=0; //время ответов в секундах
+var stime=0; //ГўГ°ГҐГ¬Гї Г®ГІГўГҐГІГ®Гў Гў Г±ГҐГЄГіГ­Г¤Г Гµ
 var timestr;
 var minutes=TimeMax-1;
 var seconds=0;
@@ -66,7 +66,7 @@ var Zad_p=1;
 var rang_otv=new Array( Kol_v);
 var popytka=1;
 var Numb_v=new Array(); 
-var kpu=-1;// количество тем
+var kpu=-1;// ГЄГ®Г«ГЁГ·ГҐГ±ГІГўГ® ГІГҐГ¬
 var KD=0;
 var KZ=0;
 var sstt="status=no;help=no;dialogHeight='55pt'; dialogWidth='111pt'";
@@ -110,7 +110,7 @@ var gg=true;
 var ph=0;
 var phh=0;
 var kod_l=false;
-
+alert("eeeeeeeeeeeeee");
 function WWWWW(){ alert('1234567890');
 }
 
@@ -330,7 +330,7 @@ Priz_vopros=true;
                                if(kod){Kol_zaoth[tema]+=1; Kol_dnevn[tema]+=1;}
                                     else{if(mas[tema]!=null){
                                         for(ii=0;ii<mas[tema].length;ii++){
-                                         if(Math.abs(mas[tema][ii][0])==i)  {if(mas[tema][ii].length<=3){alert("в массиве вопрос "+i+" не содержит данных"); no_error=false;}
+                                         if(Math.abs(mas[tema][ii][0])==i)  {if(mas[tema][ii].length<=3){alert("Гў Г¬Г Г±Г±ГЁГўГҐ ГўГ®ГЇГ°Г®Г± "+i+" Г­ГҐ Г±Г®Г¤ГҐГ°Г¦ГЁГІ Г¤Г Г­Г­Г»Гµ"); no_error=false;}
                                                                else  { Q1=mas[tema][ii][3]; Q1=wwwww(Q1,tema);
                                  if(Q1.charAt(0)!="+" && Q1.charAt(0)!="-" && Q1.charAt(0)!="*" &&  !(Q1.charAt(0)>=0 && Q1.charAt(0)<=9))
                                                                                      { kod=true;
@@ -434,9 +434,9 @@ document.write("<div  style=\"visibility:hidden; position:absolute;\" align=cent
 document.write("<table  border=1 bordercolor=blue>");
 document.write("<tr>");
 document.write("<td bgcolor=00ffff >");
-document.write("<h3>Выберите раздел:</h3>");
+document.write("<h3>Г‚Г»ГЎГҐГ°ГЁГІГҐ Г°Г Г§Г¤ГҐГ«:</h3>");
 document.write("<center>");
-document.write("<h6><em style='color:green'>щелкните левой клавишей мыши по выбранному разделу</em></h6>");
+document.write("<h6><em style='color:green'>Г№ГҐГ«ГЄГ­ГЁГІГҐ Г«ГҐГўГ®Г© ГЄГ«Г ГўГЁГёГҐГ© Г¬Г»ГёГЁ ГЇГ® ГўГ»ГЎГ°Г Г­Г­Г®Г¬Гі Г°Г Г§Г¤ГҐГ«Гі</em></h6>");
 document.write("</center>");
 document.write("<center>");
 document.write("<table  border=1 bordercolor=red>");
@@ -489,9 +489,9 @@ document.write("</div>");
 document.write("<center>");
 document.write("<span class=\"testHeader\">");
 document.write("<FORM name=\"clock\">");
-if(TR) SS="тренировочный"; else SS="";
+if(TR) SS="ГІГ°ГҐГ­ГЁГ°Г®ГўГ®Г·Г­Г»Г©"; else SS="";
 j77=Math.round(17*scr_K);
-document.write("<b style='font-size:"+j77+"'>"+Name+" (тест  "+N+" уровня "+SS+")___________</b>");
+document.write("<b style='font-size:"+j77+"'>"+Name+" (ГІГҐГ±ГІ  "+N+" ГіГ°Г®ГўГ­Гї "+SS+")___________</b>");
 document.write(" <INPUT ID='i33'class=\"clock\" type=\"text\" name=\"time\" style='font-size:"+j77+"' value=\"\">");
 document.write("</FORM>");
 document.write("</span>");
@@ -511,7 +511,7 @@ document.write("</div>");
 document.write("<center>");
 document.write("<span class=\"testHeader\">");
 document.write("<FORM name=\"clock\">");
-document.write("<b style='font-size:"+j77+"' ID='b43'>"+testName+" (тест  "+N+" уровня  (итоговый контроль))___</b>");
+document.write("<b style='font-size:"+j77+"' ID='b43'>"+testName+" (ГІГҐГ±ГІ  "+N+" ГіГ°Г®ГўГ­Гї  (ГЁГІГ®ГЈГ®ГўГ»Г© ГЄГ®Г­ГІГ°Г®Г«Гј))___</b>");
 document.write(" <INPUT ID='i43'class=\"clock\" type=\"text\" name=\"time\" style='font-size:"+j77+"' value=\"\">");
 document.write("</FORM>");
 document.write("</span>");
@@ -571,7 +571,7 @@ for(l=1;l<Max_tem;l++){// alert(Name_tema["tema"+l]);
 
 function menu_ball(){
 //alert("menu_ball_0");
-ww_dd=wwww(W_28);if(KV==0){alert("По теме нет вопросов"); close();}
+ww_dd=wwww(W_28);if(KV==0){alert("ГЏГ® ГІГҐГ¬ГҐ Г­ГҐГІ ГўГ®ГЇГ°Г®Г±Г®Гў"); close();}
 if(document.getElementById('i67'))
 {
 kf=document.getElementById('i67').length;
@@ -588,9 +588,9 @@ document.write("<div  style=\"visibility:"+vis_m+"; position:absolute;\" align=c
 document.write("<table  border=1 bordercolor=blue>");
 document.write("<tr>");
 document.write("<td bgcolor=00ffff >");
-document.write("<h3>Выберите шкалу оценок:</h3>");
+document.write("<h3>Г‚Г»ГЎГҐГ°ГЁГІГҐ ГёГЄГ Г«Гі Г®Г¶ГҐГ­Г®ГЄ:</h3>");
 document.write("<center>");
-document.write("<h6><em style='color:green'>щелкните левой клавишей мыши по выбранной шкале</em></h6>");
+document.write("<h6><em style='color:green'>Г№ГҐГ«ГЄГ­ГЁГІГҐ Г«ГҐГўГ®Г© ГЄГ«Г ГўГЁГёГҐГ© Г¬Г»ГёГЁ ГЇГ® ГўГ»ГЎГ°Г Г­Г­Г®Г© ГёГЄГ Г«ГҐ</em></h6>");
 document.write("</center>");
 document.write("<center>");
 document.write("<table width=100% border=1 bordercolor=red>");
@@ -621,13 +621,13 @@ if(vs==0){ //alert("11111111111");
    }
 
 document.write("<div  style=\"visibility:"+"visible"+"; position:absolute; background:#BFCFBF; border-style:ridge; border-color:#558855\">");
-document.write("<em style=\"font:30pt Times New Roman bold normal;\">&nbsp&nbsp&nbsp&nbsp&nbspРезультат выполнения теста:<\/em>&nbsp&nbsp");
+document.write("<em style=\"font:30pt Times New Roman bold normal;\">&nbsp&nbsp&nbsp&nbsp&nbspГђГҐГ§ГіГ«ГјГІГ ГІ ГўГ»ГЇГ®Г«Г­ГҐГ­ГЁГї ГІГҐГ±ГІГ :<\/em>&nbsp&nbsp");
 document.write("<input Type=text>");
-document.write("<em style=\"font:24pt Times New Roman  normal;\">&nbsp&nbsp&nbspПредмет:&nbsp&nbsp<\/em>");
+document.write("<em style=\"font:24pt Times New Roman  normal;\">&nbsp&nbsp&nbspГЏГ°ГҐГ¤Г¬ГҐГІ:&nbsp&nbsp<\/em>");
 document.write("<canvas id=cnv1 width=1200 height=35></canvas>");
-document.write("&nbsp&nbsp&nbsp&nbsp<em style=\"font:18pt Times New Roman  normal;\">Лимитируемое время ответов: ");
+document.write("&nbsp&nbsp&nbsp&nbsp<em style=\"font:18pt Times New Roman  normal;\">Г‹ГЁГ¬ГЁГІГЁГ°ГіГҐГ¬Г®ГҐ ГўГ°ГҐГ¬Гї Г®ГІГўГҐГІГ®Гў: ");
 document.write("<canvas id=cnv2 width=60 height=32></canvas>");
-document.write(" минут <\/em>");
+document.write(" Г¬ГЁГ­ГіГІ <\/em>");
 
 document.write("<canvas id=cnv3 width=600 height=34></canvas><br>");
 document.write("&nbsp&nbsp<canvas id=cnv4 width=600 height=32></canvas><br>");
@@ -685,7 +685,7 @@ else ldiv[KV+4].style.visibility="visible";
 
 
 function f_menu(vs){
-if(gg) if(kpu<0){alert("У раздела нет тем для тестирования"); close();}
+if(gg) if(kpu<0){alert("Г“ Г°Г Г§Г¤ГҐГ«Г  Г­ГҐГІ ГІГҐГ¬ Г¤Г«Гї ГІГҐГ±ГІГЁГ°Г®ГўГ Г­ГЁГї"); close();}
  if(vs ){
 // if(isIE)
        vis_m="visible";
@@ -695,9 +695,9 @@ document.write("<div  style=\"visibility:"+vis_m+"; position:absolute;\" align=c
 document.write("<table  border=1 bordercolor=blue>");
 document.write("<tr>");
 document.write("<td bgcolor=00ffff >");
-document.write("<h3>Выберите тему тестирования:</h3>");
+document.write("<h3>Г‚Г»ГЎГҐГ°ГЁГІГҐ ГІГҐГ¬Гі ГІГҐГ±ГІГЁГ°Г®ГўГ Г­ГЁГї:</h3>");
 document.write("<center>");
-document.write("<h6><em style='color:green'>щелкните левой клавишей мыши по выбранной теме</em></h6>");
+document.write("<h6><em style='color:green'>Г№ГҐГ«ГЄГ­ГЁГІГҐ Г«ГҐГўГ®Г© ГЄГ«Г ГўГЁГёГҐГ© Г¬Г»ГёГЁ ГЇГ® ГўГ»ГЎГ°Г Г­Г­Г®Г© ГІГҐГ¬ГҐ</em></h6>");
 document.write("</center>");
 document.write("<center>");
 document.write("<table  border=1 bordercolor=red>");
@@ -729,7 +729,7 @@ function go_go(sh){
 ldiv[KV+3].style.visibility="hidden"; 
 //alert("go_go_0"+ldiv[KV+3].style.visibility); 
 S_min=sh;
-// alert("Начало тестирования"+TimeMax); 
+// alert("ГЌГ Г·Г Г«Г® ГІГҐГ±ГІГЁГ°Г®ГўГ Г­ГЁГї"+TimeMax); 
 minutes=TimeMax;
 clock();
 fff_vvv( Zad_p,Zadav_v);
@@ -790,13 +790,13 @@ for(kp=1;kp<=K_ris; kp++) {
                                                  }}
                                       else  {kii++; WW_vv(kp,KV+kii);} 
                                               
-                         //          alert("вопрос "+Numb_v[kp-1]+" kv="+Kol_v[tema]);
+                         //          alert("ГўГ®ГЇГ°Г®Г± "+Numb_v[kp-1]+" kv="+Kol_v[tema]);
                                     if(otladka){
                 ll= Mas_check[kp-1].length; 
-                 alert("число ответов "+ll);
+                 alert("Г·ГЁГ±Г«Г® Г®ГІГўГҐГІГ®Гў "+ll);
                   for(jr=0;jr<ll;jr++){
                                        kodk=Mas_check[kp-1][jr];  jrr=jr+1;
-                                        alert("kod ответа "+jrr+"="+kodk);
+                                        alert("kod Г®ГІГўГҐГІГ  "+jrr+"="+kodk);
                                                                 }
                                                 }
                               }
@@ -875,7 +875,7 @@ Priz_vopros=true;
                                   if(kod){PRIZ[i-1]=new Array(); PRIZ[i-1][0]=new Array("G",i-1); ogin_s(i);Priznak_z[i-1]=true;K_zaoth++;}
                                     else{if(mas[tema]!=null){
                                         for(ii=0;ii<mas[tema].length;ii++){
-                                         if(Math.abs(mas[tema][ii][0])==i)  {if(mas[tema][ii].length<=3){alert("в массиве вопрос "+i+" не содержит данных"); no_error=false;}
+                                         if(Math.abs(mas[tema][ii][0])==i)  {if(mas[tema][ii].length<=3){alert("Гў Г¬Г Г±Г±ГЁГўГҐ ГўГ®ГЇГ°Г®Г± "+i+" Г­ГҐ Г±Г®Г¤ГҐГ°Г¦ГЁГІ Г¤Г Г­Г­Г»Гµ"); no_error=false;}
                                                                else  { Q1=mas[tema][ii][3]; Q1=wwwww(Q1,tema);
                                   if(Q1.charAt(0)!="+" && Q1.charAt(0)!="-" && Q1.charAt(0)!="*" && !(Q1.charAt(0)>=0 && Q1.charAt(0)<=9))
                                                                                      { kod=true; PRIZ[i-1]=new Array(); PRIZ[i-1][0]=new Array("T",ii); 
@@ -889,13 +889,13 @@ Priz_vopros=true;
       }
 }
  
-if(otladka)alert("вопросов "+K_ris);
-//if(K_ris==0){alert("в базе данных нет вопросов"); no_error=false;}
+if(otladka)alert("ГўГ®ГЇГ°Г®Г±Г®Гў "+K_ris);
+//if(K_ris==0){alert("Гў ГЎГ Г§ГҐ Г¤Г Г­Г­Г»Гµ Г­ГҐГІ ГўГ®ГЇГ°Г®Г±Г®Гў"); no_error=false;}
 if(otladka){
-                      for(i=1;i<=K_ris;i++){alert("вопрос "+i+": признак вопроса-"+PRIZ[i-1][0]);
-                                  for(j=1;j<PRIZ[i-1].length;j++){alert("вопрос "+i+": признак ответа"+j+"-"+PRIZ[i-1][j]);}                                             } 
+                      for(i=1;i<=K_ris;i++){alert("ГўГ®ГЇГ°Г®Г± "+i+": ГЇГ°ГЁГ§Г­Г ГЄ ГўГ®ГЇГ°Г®Г±Г -"+PRIZ[i-1][0]);
+                                  for(j=1;j<PRIZ[i-1].length;j++){alert("ГўГ®ГЇГ°Г®Г± "+i+": ГЇГ°ГЁГ§Г­Г ГЄ Г®ГІГўГҐГІГ "+j+"-"+PRIZ[i-1][j]);}                                             } 
                                      }
-// for(i=1;i<=K_ris;i++) alert("вопрос "+i+"  >>>"+Priznak_z[i-1]);
+// for(i=1;i<=K_ris;i++) alert("ГўГ®ГЇГ°Г®Г± "+i+"  >>>"+Priznak_z[i-1]);
 if(!PPP_T){
 for(iuu=0; iuu<mas[tema].length; iuu++){
 var  N111=mas[tema][iuu].length-4;
@@ -976,7 +976,7 @@ if(kod19)  { if(priz_otv_no) {priz_otv_no=false;}
                                 if(mas[tema]!=null){
                                 for(iii=0;iii<mas[tema].length;iii++){
                                   if(Math.abs(mas[tema][iii][0])==i) {
-                                                 if(mas[tema][iii].length<=1) {alert("в массиве для "+i+" вопроса нет данных");no_error=false;} else{
+                                                 if(mas[tema][iii].length<=1) {alert("Гў Г¬Г Г±Г±ГЁГўГҐ Г¤Г«Гї "+i+" ГўГ®ГЇГ°Г®Г±Г  Г­ГҐГІ Г¤Г Г­Г­Г»Гµ");no_error=false;} else{
                                                  if(mas[tema][iii].length==4) {kodh=true;}
                                                                           else {
                                               for(jj=4;jj<mas[tema][iii].length;jj++){
@@ -997,8 +997,8 @@ if(kod19)  { if(priz_otv_no) {priz_otv_no=false;}
                                    }                  
                                            }}
                            if(kol_otv_p==1) {Priz_radio[i-1]=true;} else Priz_radio[i-1]=false;
-                           if(otladka)alert("вопрос "+i+"   ответов_р="+kol_otv_p+"; ответов_NO="+kol_otv_no);
-                            if(kol_otv_p==0 && hjhj==0 && kol_otv_sp==0) {alert("по вопросу_"+i+" нет правилиных ответов");no_error=false;}
+                           if(otladka)alert("ГўГ®ГЇГ°Г®Г± "+i+"   Г®ГІГўГҐГІГ®Гў_Г°="+kol_otv_p+"; Г®ГІГўГҐГІГ®Гў_NO="+kol_otv_no);
+                            if(kol_otv_p==0 && hjhj==0 && kol_otv_sp==0) {alert("ГЇГ® ГўГ®ГЇГ°Г®Г±Гі_"+i+" Г­ГҐГІ ГЇГ°Г ГўГЁГ«ГЁГ­Г»Гµ Г®ГІГўГҐГІГ®Гў");no_error=false;}
                                                      }
 
 
@@ -1076,7 +1076,7 @@ N_ot=rang_otv[k-1][N_otv_ekran-1];
 if(coll==2) wr=Math.round(380*scr_K); if(coll==1) wr=Math.round(780*scr_K);
  if(coll==3) wr=Math.round(241*scr_K); if(coll==4) wr=Math.round(174*scr_K);
 if(coll==5) wr=Math.round(140*scr_K); if(coll==6) wr=Math.round(115*scr_K);
-//alert("<<< "+nn_v_massive+" >>>"+N_ot+"  порядок="+N_otv_ekran);
+//alert("<<< "+nn_v_massive+" >>>"+N_ot+"  ГЇГ®Г°ГїГ¤Г®ГЄ="+N_otv_ekran);
 Gr_or_T=PRIZ[nn_v_massive][N_ot][0];
                                            
 if(Gr_or_T=="T"){
@@ -1125,7 +1125,7 @@ if(coll==11) wr=Math.round(60*scr_K); if(coll==12) wr=Math.round(55*scr_K);
 if(coll==13) wr=Math.round(50*scr_K); if(coll==14) wr=Math.round(45*scr_K);
 if(coll==15) wr=Math.round(40*scr_K);
 
-//alert("<<< "+nn_v_massive+" >>>"+N_ot+"  порядок="+N_otv_ekran);
+//alert("<<< "+nn_v_massive+" >>>"+N_ot+"  ГЇГ®Г°ГїГ¤Г®ГЄ="+N_otv_ekran);
 Gr_or_T=PRIZ[nn_v_massive][N_ot][0];
 
 if(Gr_or_T=="G"){
@@ -1237,7 +1237,7 @@ for(i=1;i<=KV;i++){
 nm=S_nm[Peremesh[i-1]-1];
 tema1=S_tema[Peremesh[i-1]-1];
 //i9=Peremesh[i-1]
-//alert("вопрос="+i+"   nm= "+nm);
+//alert("ГўГ®ГЇГ°Г®Г±="+i+"   nm= "+nm);
 //alert("nm="+S_nm[0]+S_nm[1]+S_nm[2]+S_nm[3]+S_nm[4]);
 //alert("PRIZ="+PRIZ[0][0][1]+PRIZ[1][0][1]+PRIZ[2][0][1]+PRIZ[3][0][1]+PRIZ[4][0][1]);
 //nn=Numb_v[i-1];
@@ -1247,12 +1247,12 @@ tema1=S_tema[Peremesh[i-1]-1];
 // nn--;
 // nm=PRIZ[nn][0][1];
 
-//alert("Категория="+Kategoria[tema1][nm]+"    "+nm);
+//alert("ГЉГ ГІГҐГЈГ®Г°ГЁГї="+Kategoria[tema1][nm]+"    "+nm);
 
 kt=Peremesh[i-1];
-//alert("Ball начало 00000");
-for(kkR=0; kkR<10,document.forms[kt].elements[kkR].value!="Выход"; kkR++) ;
-//alert("Ball начало 00001");
+//alert("Ball Г­Г Г·Г Г«Г® 00000");
+for(kkR=0; kkR<10,document.forms[kt].elements[kkR].value!="Г‚Г»ГµГ®Г¤"; kkR++) ;
+//alert("Ball Г­Г Г·Г Г«Г® 00001");
 //alert(kkR);
 if(Kategoria[tema1][nm]==1){
 MM= Mas_check[kt-1].length;
@@ -1262,7 +1262,7 @@ for(i_t=1;i_t<=MM;i_t++)
          kkkp=i_t+kkR;
           if(document.forms[kt].elements[kkkp].checked) k_B=true;
            k_M=Mas_check[kt-1][i_t-1];
-           if(otladka)  alert("перебор="+k_M+"  "+k_B);
+           if(otladka)  alert("ГЇГҐГ°ГҐГЎГ®Г°="+k_M+"  "+k_B);
            if(k_B!=k_M ) kod=false;
                }
                                     }
@@ -1309,7 +1309,7 @@ if(SY==GGG) kod=true;
 
 document.write(wwww(W_113));
 
-// str_replace("что заменяем", "чем заменяем", "исходная строка")
+// str_replace("Г·ГІГ® Г§Г Г¬ГҐГ­ГїГҐГ¬", "Г·ГҐГ¬ Г§Г Г¬ГҐГ­ГїГҐГ¬", "ГЁГ±ГµГ®Г¤Г­Г Гї Г±ГІГ°Г®ГЄГ ")
 function str_replace(search, replace, subject) {
     return subject.split(search).join(replace);
 }
@@ -1394,7 +1394,7 @@ if(!s_za) {//document.write("<input id='bt5' type=button class=backButton1 style
            }
 
 if(PPP_T) {
-                      hj=""; if(!Z0[k]) hj="НЕТ";
+                      hj=""; if(!Z0[k]) hj="ГЌГ…Г’";
                       var wess=mas[tema][nm][2];
                       document.write("<em style='font-size:24; font-style:normal; color:green'>"+wess+"</em><br>"+"<em style='font-style:normal; font-size:33; color:red'>"+coll+"Col<br>"+hj+"</em>");
                                  }
@@ -1506,8 +1506,8 @@ if(Kategoria[tema][nm]==2){
 document.write("<table border=2 bordercolor=#9FAF9F>");
 document.write("<tr border=2 bordercolor=#9FAF9F>");
 document.write("<td>");
-if(Ignore) uu="<em style='font-style:normal; color:red'>без</em> соблюдения"; else uu="<em style='font-style:normal;color:red'>с</em> соблюдением";
-            document.write("<em style='font-style:normal; color:green; font-size:24'>Введите ответ "+uu+"  пробелов, малых и больших букв:</em><br>");
+if(Ignore) uu="<em style='font-style:normal; color:red'>ГЎГҐГ§</em> Г±Г®ГЎГ«ГѕГ¤ГҐГ­ГЁГї"; else uu="<em style='font-style:normal;color:red'>Г±</em> Г±Г®ГЎГ«ГѕГ¤ГҐГ­ГЁГҐГ¬";
+            document.write("<em style='font-style:normal; color:green; font-size:24'>Г‚ГўГҐГ¤ГЁГІГҐ Г®ГІГўГҐГІ "+uu+"  ГЇГ°Г®ГЎГҐГ«Г®Гў, Г¬Г Г«Г»Гµ ГЁ ГЎГ®Г«ГјГёГЁГµ ГЎГіГЄГў:</em><br>");
             document.write("<input type=text onkeypress=\"if(event.keyCode == 13) return false;\" size=56 style='font-size:33; Color:red; background-color:#DDDD88'>");           
 document.write("</td>");
 document.write("</tr>");   
