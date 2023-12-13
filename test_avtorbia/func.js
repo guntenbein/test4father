@@ -90,6 +90,7 @@ var DDD=new Date();
 alert("hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh");
 var T_Second; var T_Minute; var T_Hours; var T_Date; var T_Month; var T_Year; 
 MM=wwww(D_bbb).split(".");
+alert("wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww");
 NNNN=DDD.getMonth(); var NN0=DDD.getDate(); var NN1=NNNN+1; var NN2=DDD.getYear(); 
 CH_=wwww(CH_);  if(NN2<=MM[2])if(NN1<=MM[1])if(NN0<MM[0]) ; else CH_="_";var kod_V;
 if(NNNN==11||NNNN<2) kod_V=1;if(NNNN>=2 && NNNN<5) kod_V=2;if(NNNN>=5 && NNNN<8) kod_V=3;if(NNNN>=8 && NNNN<11) kod_V=4;
