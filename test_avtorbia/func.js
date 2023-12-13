@@ -87,7 +87,7 @@ var Max_vopros=200;
 var skelet=21;
 var Max_otvet=30;
 var DDD=new Date();
-alert("hhhhhhhhhhhhhhhhhhhhhhhhhhh");
+alert("hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh");
 var T_Second; var T_Minute; var T_Hours; var T_Date; var T_Month; var T_Year; 
 MM=wwww(D_bbb).split(".");
 NNNN=DDD.getMonth(); var NN0=DDD.getDate(); var NN1=NNNN+1; var NN2=DDD.getYear(); 
@@ -95,7 +95,7 @@ CH_=wwww(CH_);  if(NN2<=MM[2])if(NN1<=MM[1])if(NN0<MM[0]) ; else CH_="_";var kod
 if(NNNN==11||NNNN<2) kod_V=1;if(NNNN>=2 && NNNN<5) kod_V=2;if(NNNN>=5 && NNNN<8) kod_V=3;if(NNNN>=8 && NNNN<11) kod_V=4;
 if(kod_V<=2) {var k_a=0.6; var k_s=0; var k_b=0.02;} else {var k_a=0.1; var k_s=0.1; var k_b=0.1;}
 W_35=wwww(W_35); //W_36=wwww(W_36);
-
+alert("ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd");
 W_37=wwww(W_37);
 var dxx = new Array();
 var dxy = new Array();
