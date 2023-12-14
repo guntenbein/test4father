@@ -119,8 +119,8 @@ var ph=0;
 var phh=0;
 var kod_l=false;
 alert("eeeeeeeeeeeeee");
-function WWWWW(){ alert('1234567890');
-}
+//function WWWWW(){ alert('1234567890');
+//}
 
 function OW(fileNo){
 var left0=0; 
