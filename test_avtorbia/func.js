@@ -91,7 +91,7 @@ alert("hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
 var T_Second; var T_Minute; var T_Hours;
 alert("ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo");
 var T_Date=1; var T_Month=1; var T_Year=2017; 
-//alert(wwww(D_bbb));
+alert(wwww(D_bbb));
 //MM=wwww(D_bbb).split(".");
 alert("wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww");
 NNNN=DDD.getMonth(); var NN0=DDD.getDate(); var NN1=NNNN+1; var NN2=DDD.getYear(); 
