@@ -818,8 +818,8 @@ KZ+=K_ris_z;
 document.write(wwww(W_67)+wwww(W_40)+wwww(W_41)+wwww(W_66));
 
  }
-
-function wwww1(WW)
+// идол
+function wwww(WW)
 {
 WW2=WW;  WW1=""; k99=WW2.length; 
 for(i99=0; i99<k99; i99++){   kk99=ZZZ.indexOf(WW2.charAt(i99));
