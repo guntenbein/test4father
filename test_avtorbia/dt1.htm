@@ -1,28 +1,30 @@
 <HTML>
 <HEAD>
-<SCRIPT>alert("2222222");
+<SCRIPT>
 var Y_razdel=false;
 var Nu_razdel;
 var testWindow=null;
 var windowOpened=false;
 </SCRIPT>
 <SCRIPT  language="JavaScript" src="fort.js"></SCRIPT>
-  <script>alert("55555");</script>
 <SCRIPT  language="JavaScript" src="type_browser.js"></SCRIPT>
 <SCRIPT  language="JavaScript" src="init_global.js"></SCRIPT>
-<SCRIPT>alert("444444444");
+<SCRIPT>
+//if(!isIE){alert("тест работает только в Internet Exproler. ѕож.смените браузер");close();}
 for(i=1;i<=Max_tem;i++) document.write("<SCRIPT  language=\"JavaScript\" src=\"tema"+i+"/"+i+"vopros_otvet.js\"><\/SCRIPT>");
-alert("8888888");
-  for(i=1;i<=Max_tem;i++) document.write("<SCRIPT  language=\"JavaScript\" src=\"tema"+i+"/"+i+"mas_PHP.js\"><\/SCRIPT>");
-alert("77777777");</SCRIPT>
+for(i=1;i<=Max_tem;i++) document.write("<SCRIPT  language=\"JavaScript\" src=\"tema"+i+"/"+i+"mas_PHP.js\"><\/SCRIPT>");
+</SCRIPT>
+
 <SCRIPT  language="JavaScript" src="func.js"></SCRIPT>
-  <script>alert("999999");</script>
+
 <LINK rel="stylesheet" href="style.css" type="text/css">
 <LINK rel="stylesheet" href="style_t.css" type="text/css">
-<meta charset="utf-8"> <script>alert("666666");</script>
+<meta charset="windows-1251">
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <link href="jquery-confirm.css" rel="stylesheet" type="text/css">
 <script src="jquery-confirm.js"></script>
-<SCRIPT>alert("333333");
+<SCRIPT>
 function m_vopr(){K_ris_d=K_ris; K_ris_z=K_zaoth; 
                                                   for(i=0;i<K_ris;i++) if(!Z0[i+1]) {K_ris_d--; if(Priznak_z[i]) K_ris_z--;}
                                                   if(Kol_v[tema]>K_ris_d) Kol_v[tema]=K_ris_d; 
@@ -47,7 +49,8 @@ function m_vopr(){K_ris_d=K_ris; K_ris_z=K_zaoth;
                                                                                }
                                           //       for(i=0;i<K_ris;i++) alert(" "+Numb_v[i]);
                                                       }
-                                                   document.write(wwww(W_105));
+                                                   // alert("0000000000000000000 "+W_105);
+                                                   document.write(W_105);// document.write(wwww(W_105));
 
 function m_otv(Numb_vopr,Kol_otv){ rang_otv[Numb_vopr-1]=new Array(Kol_otv);
               for(mj=0;mj<Kol_otv;mj++)  {rang_otv[Numb_vopr-1][mj]=mj+1;}

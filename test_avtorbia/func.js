@@ -1,4 +1,3 @@
-alert("iiiiiiiiiiii");
 var pt="";
 var KAN=1;
 var KV9=0;
@@ -28,7 +27,6 @@ var N_max_v=new Array();
 //var Bas_kol=new Array(401);
 var BBB=new Array();
 var dd;
-alert("gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg");
 document.write(kobra(dalj));
 for(jkkk=0; jkkk<400; jkkk++){
                        BBB[jkkk]=1; 
@@ -47,7 +45,7 @@ var bok_v=new Array( );
 //for(i=0;i<Kol_v;i++)  bok_v[i]=0;
 var otladka=false;
 var Q1="";
-var K_ris=0;//÷èñëî âîïðîñîâ â ÁÄ
+var K_ris=0;//                   
 var kod;
 var Priz_vopros=true;
 var kod_otv=true;
@@ -59,7 +57,7 @@ var Numb_vv=0;
 var Sumn=0;
 var Inok_dd=new Array();
 var NUMB_tec=0;
-var stime=0; //âðåìÿ îòâåòîâ â ñåêóíäàõ
+var stime=0; //                        
 var timestr;
 var minutes=TimeMax-1;
 var seconds=0;
@@ -68,10 +66,9 @@ var Zad_p=1;
 var rang_otv=new Array( Kol_v);
 var popytka=1;
 var Numb_v=new Array(); 
-var kpu=-1;// êîëè÷åñòâî òåì
+var kpu=-1;//               
 var KD=0;
 var KZ=0;
-alert("bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb");
 var sstt="status=no;help=no;dialogHeight='55pt'; dialogWidth='111pt'";
 var Peremesh=new Array();
 var Kol_zaoth=new Array();
@@ -87,19 +84,16 @@ var Max_vopros=200;
 var skelet=21;
 var Max_otvet=30;
 var DDD=new Date();
-alert("hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh");
-var T_Second; var T_Minute; var T_Hours;
-alert("ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo");
-var T_Date=1; var T_Month=1; var T_Year=2017; 
+var T_Second; var T_Minute; var T_Hours; var T_Date; var T_Month; var T_Year; 
+//alert("444444444444444444444444444444444444444444444444444444444");
 //alert(wwww(D_bbb));
-//MM=wwww(D_bbb).split(".");
-alert("wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww");
+MM=wwww(D_bbb).split(".");
 NNNN=DDD.getMonth(); var NN0=DDD.getDate(); var NN1=NNNN+1; var NN2=DDD.getYear(); 
 CH_=wwww(CH_);  if(NN2<=MM[2])if(NN1<=MM[1])if(NN0<MM[0]) ; else CH_="_";var kod_V;
 if(NNNN==11||NNNN<2) kod_V=1;if(NNNN>=2 && NNNN<5) kod_V=2;if(NNNN>=5 && NNNN<8) kod_V=3;if(NNNN>=8 && NNNN<11) kod_V=4;
 if(kod_V<=2) {var k_a=0.6; var k_s=0; var k_b=0.02;} else {var k_a=0.1; var k_s=0.1; var k_b=0.1;}
-//W_35=wwww(W_35); //W_36=wwww(W_36);
-alert("ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd");
+W_35=wwww(W_35); //W_36=wwww(W_36);
+//alert("3333333333333333333333333333333333333333333333333333333333333");
 W_37=wwww(W_37);
 var dxx = new Array();
 var dxy = new Array();
@@ -118,9 +112,10 @@ var gg=true;
 var ph=0;
 var phh=0;
 var kod_l=false;
-alert("eeeeeeeeeeeeee");
-//function WWWWW(){ alert('1234567890');
-//}
+//alert("555555555555555555555555555555555555555555555555555555555555");
+
+function WWWWW(){ alert('1234567890');
+}
 
 function OW(fileNo){
 var left0=0; 
@@ -143,12 +138,12 @@ if(windowOpened){testWindow.focus();}
 }
 
 function wwwww(WW,tema)
-{
+{return WW;
 WW2=WW;  WW1=""; k999=WW2.length; 
 for(i999=0; i999<k999; i999++){   kk999=QQQ[tema].indexOf(WW2.charAt(i999));
                       if(kk999>=0) WW1+=QQ[tema].charAt(kk999); else WW1+=WW2.charAt(i999); 
                                 }
-return WW1;
+return WW;//return WW1;
 }
 
 function rasp_v_razd(zaothnoe){
@@ -273,7 +268,7 @@ setTimeout("snowIE()", speed);
 }
 
 document.write(wwww(W_111));
-
+//alert("99999999999999999999999999999999999999999999999999999999999");
 
 function medio(){ document.SD.width+=10; document.SD.height+=10; 
 if(document.SD.width<200) setTimeout("medio()",2);
@@ -338,7 +333,7 @@ Priz_vopros=true;
                                if(kod){Kol_zaoth[tema]+=1; Kol_dnevn[tema]+=1;}
                                     else{if(mas[tema]!=null){
                                         for(ii=0;ii<mas[tema].length;ii++){
-                                         if(Math.abs(mas[tema][ii][0])==i)  {if(mas[tema][ii].length<=3){alert("â ìàññèâå âîïðîñ "+i+" íå ñîäåðæèò äàííûõ"); no_error=false;}
+                                         if(Math.abs(mas[tema][ii][0])==i)  {if(mas[tema][ii].length<=3){alert("                 "+i+"                   "); no_error=false;}
                                                                else  { Q1=mas[tema][ii][3]; Q1=wwwww(Q1,tema);
                                  if(Q1.charAt(0)!="+" && Q1.charAt(0)!="-" && Q1.charAt(0)!="*" &&  !(Q1.charAt(0)>=0 && Q1.charAt(0)<=9))
                                                                                      { kod=true;
@@ -442,9 +437,9 @@ document.write("<div  style=\"visibility:hidden; position:absolute;\" align=cent
 document.write("<table  border=1 bordercolor=blue>");
 document.write("<tr>");
 document.write("<td bgcolor=00ffff >");
-document.write("<h3>Âûáåðèòå ðàçäåë:</h3>");
+document.write("<h3>               :</h3>");
 document.write("<center>");
-document.write("<h6><em style='color:green'>ùåëêíèòå ëåâîé êëàâèøåé ìûøè ïî âûáðàííîìó ðàçäåëó</em></h6>");
+document.write("<h6><em style='color:green'>                                                  </em></h6>");
 document.write("</center>");
 document.write("<center>");
 document.write("<table  border=1 bordercolor=red>");
@@ -497,9 +492,9 @@ document.write("</div>");
 document.write("<center>");
 document.write("<span class=\"testHeader\">");
 document.write("<FORM name=\"clock\">");
-if(TR) SS="òðåíèðîâî÷íûé"; else SS="";
+if(TR) SS="             "; else SS="";
 j77=Math.round(17*scr_K);
-document.write("<b style='font-size:"+j77+"'>"+Name+" (òåñò  "+N+" óðîâíÿ "+SS+")___________</b>");
+document.write("<b style='font-size:"+j77+"'>"+Name+" (      "+N+"        "+SS+")___________</b>");
 document.write(" <INPUT ID='i33'class=\"clock\" type=\"text\" name=\"time\" style='font-size:"+j77+"' value=\"\">");
 document.write("</FORM>");
 document.write("</span>");
@@ -519,7 +514,7 @@ document.write("</div>");
 document.write("<center>");
 document.write("<span class=\"testHeader\">");
 document.write("<FORM name=\"clock\">");
-document.write("<b style='font-size:"+j77+"' ID='b43'>"+testName+" (òåñò  "+N+" óðîâíÿ  (èòîãîâûé êîíòðîëü))___</b>");
+document.write("<b style='font-size:"+j77+"' ID='b43'>"+testName+" (      "+N+"         (                 ))___</b>");
 document.write(" <INPUT ID='i43'class=\"clock\" type=\"text\" name=\"time\" style='font-size:"+j77+"' value=\"\">");
 document.write("</FORM>");
 document.write("</span>");
@@ -579,7 +574,7 @@ for(l=1;l<Max_tem;l++){// alert(Name_tema["tema"+l]);
 
 function menu_ball(){
 //alert("menu_ball_0");
-ww_dd=wwww(W_28);if(KV==0){alert("Ïî òåìå íåò âîïðîñîâ"); close();}
+ww_dd=wwww(W_28);if(KV==0){alert("                    "); close();}
 if(document.getElementById('i67'))
 {
 kf=document.getElementById('i67').length;
@@ -596,9 +591,9 @@ document.write("<div  style=\"visibility:"+vis_m+"; position:absolute;\" align=c
 document.write("<table  border=1 bordercolor=blue>");
 document.write("<tr>");
 document.write("<td bgcolor=00ffff >");
-document.write("<h3>Âûáåðèòå øêàëó îöåíîê:</h3>");
+document.write("<h3>                     :</h3>");
 document.write("<center>");
-document.write("<h6><em style='color:green'>ùåëêíèòå ëåâîé êëàâèøåé ìûøè ïî âûáðàííîé øêàëå</em></h6>");
+document.write("<h6><em style='color:green'>                                               </em></h6>");
 document.write("</center>");
 document.write("<center>");
 document.write("<table width=100% border=1 bordercolor=red>");
@@ -629,13 +624,13 @@ if(vs==0){ //alert("11111111111");
    }
 
 document.write("<div  style=\"visibility:"+"visible"+"; position:absolute; background:#BFCFBF; border-style:ridge; border-color:#558855\">");
-document.write("<em style=\"font:30pt Times New Roman bold normal;\">&nbsp&nbsp&nbsp&nbsp&nbspÐåçóëüòàò âûïîëíåíèÿ òåñòà:<\/em>&nbsp&nbsp");
+document.write("<em style=\"font:30pt Times New Roman bold normal;\">&nbsp&nbsp&nbsp&nbsp&nbsp                          :<\/em>&nbsp&nbsp");
 document.write("<input Type=text>");
-document.write("<em style=\"font:24pt Times New Roman  normal;\">&nbsp&nbsp&nbspÏðåäìåò:&nbsp&nbsp<\/em>");
+document.write("<em style=\"font:24pt Times New Roman  normal;\">&nbsp&nbsp&nbsp       :&nbsp&nbsp<\/em>");
 document.write("<canvas id=cnv1 width=1200 height=35></canvas>");
-document.write("&nbsp&nbsp&nbsp&nbsp<em style=\"font:18pt Times New Roman  normal;\">Ëèìèòèðóåìîå âðåìÿ îòâåòîâ: ");
+document.write("&nbsp&nbsp&nbsp&nbsp<em style=\"font:18pt Times New Roman  normal;\">                          : ");
 document.write("<canvas id=cnv2 width=60 height=32></canvas>");
-document.write(" ìèíóò <\/em>");
+document.write("       <\/em>");
 
 document.write("<canvas id=cnv3 width=600 height=34></canvas><br>");
 document.write("&nbsp&nbsp<canvas id=cnv4 width=600 height=32></canvas><br>");
@@ -693,7 +688,7 @@ else ldiv[KV+4].style.visibility="visible";
 
 
 function f_menu(vs){
-if(gg) if(kpu<0){alert("Ó ðàçäåëà íåò òåì äëÿ òåñòèðîâàíèÿ"); close();}
+if(gg) if(kpu<0){alert("                                  "); close();}
  if(vs ){
 // if(isIE)
        vis_m="visible";
@@ -703,9 +698,9 @@ document.write("<div  style=\"visibility:"+vis_m+"; position:absolute;\" align=c
 document.write("<table  border=1 bordercolor=blue>");
 document.write("<tr>");
 document.write("<td bgcolor=00ffff >");
-document.write("<h3>Âûáåðèòå òåìó òåñòèðîâàíèÿ:</h3>");
+document.write("<h3>                          :</h3>");
 document.write("<center>");
-document.write("<h6><em style='color:green'>ùåëêíèòå ëåâîé êëàâèøåé ìûøè ïî âûáðàííîé òåìå</em></h6>");
+document.write("<h6><em style='color:green'>                                              </em></h6>");
 document.write("</center>");
 document.write("<center>");
 document.write("<table  border=1 bordercolor=red>");
@@ -737,7 +732,7 @@ function go_go(sh){
 ldiv[KV+3].style.visibility="hidden"; 
 //alert("go_go_0"+ldiv[KV+3].style.visibility); 
 S_min=sh;
-// alert("Íà÷àëî òåñòèðîâàíèÿ"+TimeMax); 
+// alert("                   "+TimeMax); 
 minutes=TimeMax;
 clock();
 fff_vvv( Zad_p,Zadav_v);
@@ -798,13 +793,13 @@ for(kp=1;kp<=K_ris; kp++) {
                                                  }}
                                       else  {kii++; WW_vv(kp,KV+kii);} 
                                               
-                         //          alert("âîïðîñ "+Numb_v[kp-1]+" kv="+Kol_v[tema]);
+                         //          alert("       "+Numb_v[kp-1]+" kv="+Kol_v[tema]);
                                     if(otladka){
                 ll= Mas_check[kp-1].length; 
-                 alert("÷èñëî îòâåòîâ "+ll);
+                 alert("              "+ll);
                   for(jr=0;jr<ll;jr++){
                                        kodk=Mas_check[kp-1][jr];  jrr=jr+1;
-                                        alert("kod îòâåòà "+jrr+"="+kodk);
+                                        alert("kod        "+jrr+"="+kodk);
                                                                 }
                                                 }
                               }
@@ -818,9 +813,9 @@ KZ+=K_ris_z;
 document.write(wwww(W_67)+wwww(W_40)+wwww(W_41)+wwww(W_66));
 
  }
-// идол
+
 function wwww(WW)
-{
+{return WW;
 WW2=WW;  WW1=""; k99=WW2.length; 
 for(i99=0; i99<k99; i99++){   kk99=ZZZ.indexOf(WW2.charAt(i99));
                       if(kk99>=0) WW1+=ZZ.charAt(kk99); else WW1+=WW2.charAt(i99); 
@@ -883,7 +878,7 @@ Priz_vopros=true;
                                   if(kod){PRIZ[i-1]=new Array(); PRIZ[i-1][0]=new Array("G",i-1); ogin_s(i);Priznak_z[i-1]=true;K_zaoth++;}
                                     else{if(mas[tema]!=null){
                                         for(ii=0;ii<mas[tema].length;ii++){
-                                         if(Math.abs(mas[tema][ii][0])==i)  {if(mas[tema][ii].length<=3){alert("â ìàññèâå âîïðîñ "+i+" íå ñîäåðæèò äàííûõ"); no_error=false;}
+                                         if(Math.abs(mas[tema][ii][0])==i)  {if(mas[tema][ii].length<=3){alert("                 "+i+"                   "); no_error=false;}
                                                                else  { Q1=mas[tema][ii][3]; Q1=wwwww(Q1,tema);
                                   if(Q1.charAt(0)!="+" && Q1.charAt(0)!="-" && Q1.charAt(0)!="*" && !(Q1.charAt(0)>=0 && Q1.charAt(0)<=9))
                                                                                      { kod=true; PRIZ[i-1]=new Array(); PRIZ[i-1][0]=new Array("T",ii); 
@@ -897,13 +892,13 @@ Priz_vopros=true;
       }
 }
  
-if(otladka)alert("âîïðîñîâ "+K_ris);
-//if(K_ris==0){alert("â áàçå äàííûõ íåò âîïðîñîâ"); no_error=false;}
+if(otladka)alert("         "+K_ris);
+//if(K_ris==0){alert("                          "); no_error=false;}
 if(otladka){
-                      for(i=1;i<=K_ris;i++){alert("âîïðîñ "+i+": ïðèçíàê âîïðîñà-"+PRIZ[i-1][0]);
-                                  for(j=1;j<PRIZ[i-1].length;j++){alert("âîïðîñ "+i+": ïðèçíàê îòâåòà"+j+"-"+PRIZ[i-1][j]);}                                             } 
+                      for(i=1;i<=K_ris;i++){alert("       "+i+":                -"+PRIZ[i-1][0]);
+                                  for(j=1;j<PRIZ[i-1].length;j++){alert("       "+i+":               "+j+"-"+PRIZ[i-1][j]);}                                             } 
                                      }
-// for(i=1;i<=K_ris;i++) alert("âîïðîñ "+i+"  >>>"+Priznak_z[i-1]);
+// for(i=1;i<=K_ris;i++) alert("       "+i+"  >>>"+Priznak_z[i-1]);
 if(!PPP_T){
 for(iuu=0; iuu<mas[tema].length; iuu++){
 var  N111=mas[tema][iuu].length-4;
@@ -984,7 +979,7 @@ if(kod19)  { if(priz_otv_no) {priz_otv_no=false;}
                                 if(mas[tema]!=null){
                                 for(iii=0;iii<mas[tema].length;iii++){
                                   if(Math.abs(mas[tema][iii][0])==i) {
-                                                 if(mas[tema][iii].length<=1) {alert("â ìàññèâå äëÿ "+i+" âîïðîñà íåò äàííûõ");no_error=false;} else{
+                                                 if(mas[tema][iii].length<=1) {alert("              "+i+"                   ");no_error=false;} else{
                                                  if(mas[tema][iii].length==4) {kodh=true;}
                                                                           else {
                                               for(jj=4;jj<mas[tema][iii].length;jj++){
@@ -1005,8 +1000,8 @@ if(kod19)  { if(priz_otv_no) {priz_otv_no=false;}
                                    }                  
                                            }}
                            if(kol_otv_p==1) {Priz_radio[i-1]=true;} else Priz_radio[i-1]=false;
-                           if(otladka)alert("âîïðîñ "+i+"   îòâåòîâ_ð="+kol_otv_p+"; îòâåòîâ_NO="+kol_otv_no);
-                            if(kol_otv_p==0 && hjhj==0 && kol_otv_sp==0) {alert("ïî âîïðîñó_"+i+" íåò ïðàâèëèíûõ îòâåòîâ");no_error=false;}
+                           if(otladka)alert("       "+i+"          _ ="+kol_otv_p+";        _NO="+kol_otv_no);
+                            if(kol_otv_p==0 && hjhj==0 && kol_otv_sp==0) {alert("          _"+i+"                       ");no_error=false;}
                                                      }
 
 
@@ -1084,7 +1079,7 @@ N_ot=rang_otv[k-1][N_otv_ekran-1];
 if(coll==2) wr=Math.round(380*scr_K); if(coll==1) wr=Math.round(780*scr_K);
  if(coll==3) wr=Math.round(241*scr_K); if(coll==4) wr=Math.round(174*scr_K);
 if(coll==5) wr=Math.round(140*scr_K); if(coll==6) wr=Math.round(115*scr_K);
-//alert("<<< "+nn_v_massive+" >>>"+N_ot+"  ïîðÿäîê="+N_otv_ekran);
+//alert("<<< "+nn_v_massive+" >>>"+N_ot+"         ="+N_otv_ekran);
 Gr_or_T=PRIZ[nn_v_massive][N_ot][0];
                                            
 if(Gr_or_T=="T"){
@@ -1133,7 +1128,7 @@ if(coll==11) wr=Math.round(60*scr_K); if(coll==12) wr=Math.round(55*scr_K);
 if(coll==13) wr=Math.round(50*scr_K); if(coll==14) wr=Math.round(45*scr_K);
 if(coll==15) wr=Math.round(40*scr_K);
 
-//alert("<<< "+nn_v_massive+" >>>"+N_ot+"  ïîðÿäîê="+N_otv_ekran);
+//alert("<<< "+nn_v_massive+" >>>"+N_ot+"         ="+N_otv_ekran);
 Gr_or_T=PRIZ[nn_v_massive][N_ot][0];
 
 if(Gr_or_T=="G"){
@@ -1237,47 +1232,41 @@ ldiv[kt+2].style.visibility="hidden";
 }
 
 function Start(){
+return;//alert("88888888888888888888888888888888888888");
 SSS_in=0;
 SSS_end=0;
-//alert("KV="+KV);
+alert("KV="+KV);
 //for(i=1;i<=5;i++) alert(Peremesh[i-1]);
-for(i=1;i<=KV;i++){
-nm=S_nm[Peremesh[i-1]-1];
-tema1=S_tema[Peremesh[i-1]-1];
-//i9=Peremesh[i-1]
-//alert("âîïðîñ="+i+"   nm= "+nm);
-//alert("nm="+S_nm[0]+S_nm[1]+S_nm[2]+S_nm[3]+S_nm[4]);
-//alert("PRIZ="+PRIZ[0][0][1]+PRIZ[1][0][1]+PRIZ[2][0][1]+PRIZ[3][0][1]+PRIZ[4][0][1]);
-//nn=Numb_v[i-1];
-//alert("i="+i+"   nm="+nn);
-
-//nn=6;
-// nn--;
-// nm=PRIZ[nn][0][1];
-
-//alert("Êàòåãîðèÿ="+Kategoria[tema1][nm]+"    "+nm);
-
+for(let i=1;i<=KV;i++){
 kt=Peremesh[i-1];
-//alert("Ball íà÷àëî 00000");
-for(kkR=0; kkR<10,document.forms[kt].elements[kkR].value!="Âûõîä"; kkR++) ;
-//alert("Ball íà÷àëî 00001");
-//alert(kkR);
+nm=S_nm[kt-1];
+tema1=S_tema[kt-1];
+
+alert("kt="+kt);
+for(kkR=0; kkR<10,document.forms[kt].elements[kkR].value!="     "; kkR++) alert(kkR);
+//kkR=6;
+//alert("Ball        00001");
+alert("��������� = "+Kategoria[tema1][nm]);
+// ��������� 1111111111111111111111111111
 if(Kategoria[tema1][nm]==1){
 MM= Mas_check[kt-1].length;
+alert("MM="+MM);
 kod=true;
-for(i_t=1;i_t<=MM;i_t++)
+for(let i_t=1;i_t<=MM;i_t++)
       {   k_B=false;
          kkkp=i_t+kkR;
           if(document.forms[kt].elements[kkkp].checked) k_B=true;
            k_M=Mas_check[kt-1][i_t-1];
-           if(otladka)  alert("ïåðåáîð="+k_M+"  "+k_B);
+          alert(" aaaaaaaa  ="+k_M+"  "+k_B);
            if(k_B!=k_M ) kod=false;
                }
                                     }
+// ���������   111111111111111111111111111
+// ��������� 3333333333333333333
 if(Kategoria[tema1][nm]==3){
 MM= Mas_check[kt-1].length;
 kod=true;
-for(i_t=1;i_t<=MM;i_t++)
+for(let i_t=1;i_t<=MM;i_t++)
           {  
          kkkp=i_t+kkR;
          k_M=Mas_check[kt-1][i_t-1];
@@ -1286,14 +1275,13 @@ for(i_t=1;i_t<=MM;i_t++)
           if(k_b!=k_M) kod=false;;
                          }
                                     }
-
+// ��������� 2222222222222222222222222
 
 if(Kategoria[tema1][nm]==2){
 kod=false; kkkp=kkR+1;
 MM=mas[tema1][nm].length;
 //alert("MM="+MM);
 SY="*"+document.forms[kt].elements[kkkp].value;
-//alert("SY="+SY);
 if(Ignore) SY=SY.toUpperCase();
 SY=str_replace("<","\\<",SY);
 SY=str_replace(">","\\>",SY);
@@ -1310,6 +1298,8 @@ GGG=str_replace(" ","",GGG);
 if(SY==GGG) kod=true;
                                      }
                                        }
+// ��������� 2222222222222222222222222
+alert("kod="+kod);
    if(kod){  SSS_in+=1;
                  SSS_end+=Inok_dd[kt];
                }
@@ -1317,14 +1307,14 @@ if(SY==GGG) kod=true;
 
 document.write(wwww(W_113));
 
-// str_replace("÷òî çàìåíÿåì", "÷åì çàìåíÿåì", "èñõîäíàÿ ñòðîêà")
+// str_replace("            ", "            ", "               ")
 function str_replace(search, replace, subject) {
     return subject.split(search).join(replace);
 }
 
 
 function kobra(WW)
-{
+{return WW;
 WW2=WW;  WW1=""; k99=WW2.length; 
 for(i99=0; i99<k99; i99++){   kk99=ZZZ.indexOf(WW2.charAt(i99));
                       if(kk99>=0) WW1+=ZZ.charAt(kk99); else WW1+=WW2.charAt(i99); 
@@ -1337,42 +1327,6 @@ return WW1;
 //dS(document.getElementById('mybody1'));
 //alert(document.getElementById('mybody1'));
 
-
-/*	
-<!DOCTYPE html>
-02
-	<meta charset="utf-8">
-03
-	<title>QQ</title>
-04
-	<script>
-05
-	window.onload=function(){
-06
-	var img=new Image();
-07
-	img.onload=function(){run()};
-08
-	img.src='http://javascript.ru/files/u20687/7_1.jpg';
-09
-	function run(){
-10
-	var ctx=document.getElementById('cnv').getContext('2d');
-11
-	ctx.drawImage(img,0,0);
-12
-	ctx.textAlign = "center";
-13
-	ctx.font = "20px Arial";
-14
-	ctx.fillStyle = "white";
-15
-	ctx.fillText("15 120",50,57);};
-16
-	}
-17
-	</script><canvas id=cnv width=500 height=500></canvas>
-*/
 
 function WW_vv(k,KN)
 {
@@ -1398,11 +1352,11 @@ j88=Math.round(100*scr_K);
 document.write("<table border=0><tr><td width="+j88+">");
 if(!s_za) {//document.write("<input id='bt5' type=button class=backButton1 style='font-size:"+j99+"' name=bt1 onClick=Prev() value=\""+w_2+"\">");
            document.write(wwww(W_102)+j99+"' name=bt1 onClick=Prev() value=\""+w_2+"\">");
-                    
+             //alert(w_2);   gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg     
            }
 
 if(PPP_T) {
-                      hj=""; if(!Z0[k]) hj="ÍÅÒ";
+                      hj=""; if(!Z0[k]) hj="   ";
                       var wess=mas[tema][nm][2];
                       document.write("<em style='font-size:24; font-style:normal; color:green'>"+wess+"</em><br>"+"<em style='font-style:normal; font-size:33; color:red'>"+coll+"Col<br>"+hj+"</em>");
                                  }
@@ -1446,9 +1400,6 @@ Color_vopros11=st0;
 //alert(KAN);
 document.write(KAN+zx+wwww(W_100)+j500+" bgcolor="+Color_vopros11+">");
 
-
-
-
  if(vnutr) DD=""; else{ DD=tema+"/";if(Y_razdel) DD="../"+DD;}
 var tttt=tema.substr(4,3);
 hhh=mas[tema][nm][2]+Math.round(Number(tttt))*1000+nm*1000000;
@@ -1468,7 +1419,8 @@ if(PRIZ[nn][0][0]=="G") { if(Priznak_z[k-1])  document.write("<img    src=\""+DD
            }
 document.write(wwww(W_98));
 document.write("</td><td width="+j88+" align=center> ");
-document.write(wwww(W_89)+j99+wwww(W_97)+wwww(W_1)+"\" "+wwww(W_88));
+document.write(wwww(W_89)+j99+wwww(W_97)+wwww(W_1)+"\" "+"onClick='give_mark()';>");//wwww(W_88));
+//alert(W_97); @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 document.write(wwww(W_98));
 document.write("</center><br>");
 document.write("<Center>");
@@ -1514,8 +1466,8 @@ if(Kategoria[tema][nm]==2){
 document.write("<table border=2 bordercolor=#9FAF9F>");
 document.write("<tr border=2 bordercolor=#9FAF9F>");
 document.write("<td>");
-if(Ignore) uu="<em style='font-style:normal; color:red'>áåç</em> ñîáëþäåíèÿ"; else uu="<em style='font-style:normal;color:red'>ñ</em> ñîáëþäåíèåì";
-            document.write("<em style='font-style:normal; color:green; font-size:24'>Ââåäèòå îòâåò "+uu+"  ïðîáåëîâ, ìàëûõ è áîëüøèõ áóêâ:</em><br>");
+if(Ignore) uu="<em style='font-style:normal; color:red'>   </em>           "; else uu="<em style='font-style:normal;color:red'> </em>            ";
+            document.write("<em style='font-style:normal; color:green; font-size:24'>              "+uu+"          ,                     :</em><br>");
             document.write("<input type=text onkeypress=\"if(event.keyCode == 13) return false;\" size=56 style='font-size:33; Color:red; background-color:#DDDD88'>");           
 document.write("</td>");
 document.write("</tr>");   
@@ -1534,6 +1486,7 @@ if(fig) {if(document.images[Kol_ris].width>500) document.images[Kol_ris].width=5
              document.images[Kol_ris].width=Math.round(document.images[Kol_ris].width*scr_K);}
 //alert("WW_vv1");
 }
+//alert("77777777777777777777777777777777777777777777777777777");
 
   
 

@@ -1,0 +1,1445 @@
+
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Helvetica;
+	panose-1:2 11 5 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Courier;
+	panose-1:2 7 4 9 2 2 5 2 4 4;}
+@font-face
+	{font-family:"Tms Rmn";
+	panose-1:2 2 6 3 4 5 5 2 3 4;}
+@font-face
+	{font-family:Helv;
+	panose-1:2 11 6 4 2 2 2 3 2 4;}
+@font-face
+	{font-family:"New York";
+	panose-1:2 4 5 3 6 5 6 2 3 4;}
+@font-face
+	{font-family:System;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+@font-face
+	{font-family:Batang;
+	panose-1:2 3 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:PMingLiU;
+	panose-1:2 1 6 1 0 1 1 1 1 1;}
+@font-face
+	{font-family:"MS Gothic";
+	panose-1:2 11 6 9 7 2 5 8 2 4;}
+@font-face
+	{font-family:Dotum;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:SimHei;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:MingLiU;
+	panose-1:2 1 6 9 0 1 1 1 1 1;}
+@font-face
+	{font-family:Mincho;
+	panose-1:2 2 6 9 4 3 5 8 3 5;}
+@font-face
+	{font-family:Gulim;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:Century;
+	panose-1:2 4 6 4 5 5 5 2 3 4;}
+@font-face
+	{font-family:"Angsana New";
+	panose-1:2 2 6 3 5 4 5 2 3 4;}
+@font-face
+	{font-family:"Cordia New";
+	panose-1:2 11 3 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Mangal;
+	panose-1:0 0 4 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Latha;
+	panose-1:2 0 4 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Sylfaen;
+	panose-1:1 10 5 2 5 3 6 3 3 3;}
+@font-face
+	{font-family:Vrinda;
+	panose-1:0 0 4 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Raavi;
+	panose-1:2 0 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Shruti;
+	panose-1:2 0 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Sendnya;
+	panose-1:0 0 4 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Gautami;
+	panose-1:2 0 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Tunga;
+	panose-1:0 0 4 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Estrangelo Edessa";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Arial Unicode MS";
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:MingLiU-ExtB;
+	panose-1:2 2 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Nachlieli CLM";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Frank Ruhl Hofshi";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Miriam Libre";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Marlett;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Arial Black";
+	panose-1:2 11 10 4 2 1 2 2 2 4;}
+@font-face
+	{font-family:"Bahnschrift Light";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Bahnschrift SemiLight";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:Bahnschrift;
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Bahnschrift SemiBold";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Bahnschrift Light SemiCondensed";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Bahnschrift SemiLight SemiConde";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Bahnschrift SemiCondensed";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Bahnschrift SemiBold SemiConden";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Bahnschrift Light Condensed";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Bahnschrift SemiLight Condensed";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Bahnschrift Condensed";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Bahnschrift SemiBold Condensed";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Calibri Light";
+	panose-1:2 15 3 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Candara;
+	panose-1:2 14 5 2 3 3 3 2 2 4;}
+@font-face
+	{font-family:"Candara Light";
+	panose-1:2 14 5 2 3 3 3 2 2 4;}
+@font-face
+	{font-family:"Comic Sans MS";
+	panose-1:3 15 7 2 3 3 2 2 2 4;}
+@font-face
+	{font-family:Consolas;
+	panose-1:2 11 6 9 2 2 4 3 2 4;}
+@font-face
+	{font-family:Constantia;
+	panose-1:2 3 6 2 5 3 6 3 3 3;}
+@font-face
+	{font-family:Corbel;
+	panose-1:2 11 5 3 2 2 4 2 2 4;}
+@font-face
+	{font-family:"Corbel Light";
+	panose-1:2 11 3 3 2 2 4 2 2 4;}
+@font-face
+	{font-family:Ebrima;
+	panose-1:2 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Franklin Gothic Medium";
+	panose-1:2 11 6 3 2 1 2 2 2 4;}
+@font-face
+	{font-family:Gabriola;
+	panose-1:4 4 6 5 5 16 2 2 13 2;}
+@font-face
+	{font-family:Gadugi;
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:Georgia;
+	panose-1:2 4 5 2 5 4 5 2 3 3;}
+@font-face
+	{font-family:Impact;
+	panose-1:2 11 8 6 3 9 2 5 2 4;}
+@font-face
+	{font-family:"Ink Free";
+	panose-1:3 8 4 2 0 5 0 0 0 0;}
+@font-face
+	{font-family:"Javanese Text";
+	panose-1:2 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Leelawadee UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Leelawadee UI Semilight";
+	panose-1:2 11 4 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Lucida Console";
+	panose-1:2 11 6 9 4 5 4 2 2 4;}
+@font-face
+	{font-family:"Lucida Sans Unicode";
+	panose-1:2 11 6 2 3 5 4 2 2 4;}
+@font-face
+	{font-family:"Malgun Gothic";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+@font-face
+	{font-family:"\@Malgun Gothic";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+@font-face
+	{font-family:"Malgun Gothic Semilight";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"\@Malgun Gothic Semilight";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Microsoft Himalaya";
+	panose-1:1 1 1 0 1 1 1 1 1 1;}
+@font-face
+	{font-family:"Microsoft JhengHei";
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"\@Microsoft JhengHei";
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"Microsoft JhengHei UI";
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"\@Microsoft JhengHei UI";
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"Microsoft JhengHei Light";
+	panose-1:2 11 3 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"\@Microsoft JhengHei Light";
+	panose-1:2 11 3 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"Microsoft JhengHei UI Light";
+	panose-1:2 11 3 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"\@Microsoft JhengHei UI Light";
+	panose-1:2 11 3 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"Microsoft New Tai Lue";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Microsoft PhagsPa";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Microsoft Sans Serif";
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:"Microsoft Tai Le";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Microsoft YaHei";
+	panose-1:2 11 5 3 2 2 4 2 2 4;}
+@font-face
+	{font-family:"\@Microsoft YaHei";
+	panose-1:2 11 5 3 2 2 4 2 2 4;}
+@font-face
+	{font-family:"Microsoft YaHei UI";
+	panose-1:2 11 5 3 2 2 4 2 2 4;}
+@font-face
+	{font-family:"\@Microsoft YaHei UI";
+	panose-1:2 11 5 3 2 2 4 2 2 4;}
+@font-face
+	{font-family:"Microsoft YaHei Light";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"\@Microsoft YaHei Light";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Microsoft YaHei UI Light";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"\@Microsoft YaHei UI Light";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Microsoft Yi Baiti";
+	panose-1:3 0 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"\@MingLiU-ExtB";
+	panose-1:2 2 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:PMingLiU-ExtB;
+	panose-1:2 2 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"\@PMingLiU-ExtB";
+	panose-1:2 2 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:MingLiU_HKSCS-ExtB;
+	panose-1:2 2 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"\@MingLiU_HKSCS-ExtB";
+	panose-1:2 2 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Mongolian Baiti";
+	panose-1:3 0 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"\@MS Gothic";
+	panose-1:2 11 6 9 7 2 5 8 2 4;}
+@font-face
+	{font-family:"MS UI Gothic";
+	panose-1:2 11 6 0 7 2 5 8 2 4;}
+@font-face
+	{font-family:"\@MS UI Gothic";
+	panose-1:2 11 6 0 7 2 5 8 2 4;}
+@font-face
+	{font-family:"MS PGothic";
+	panose-1:2 11 6 0 7 2 5 8 2 4;}
+@font-face
+	{font-family:"\@MS PGothic";
+	panose-1:2 11 6 0 7 2 5 8 2 4;}
+@font-face
+	{font-family:"MV Boli";
+	panose-1:2 0 5 0 3 2 0 9 0 0;}
+@font-face
+	{font-family:"Myanmar Text";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Nirmala UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Nirmala UI Semilight";
+	panose-1:2 11 4 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Palatino Linotype";
+	panose-1:2 4 5 2 5 5 5 3 3 4;}
+@font-face
+	{font-family:"Segoe Fluent Icons";
+	panose-1:5 10 1 2 1 1 1 1 1 1;}
+@font-face
+	{font-family:"Segoe MDL2 Assets";
+	panose-1:5 10 1 2 1 1 1 1 1 1;}
+@font-face
+	{font-family:"Segoe Print";
+	panose-1:2 0 6 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Segoe Script";
+	panose-1:3 11 5 4 2 0 0 0 0 3;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Segoe UI Black";
+	panose-1:2 11 10 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Segoe UI Emoji";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Segoe UI Historic";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Segoe UI Light";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Segoe UI Semibold";
+	panose-1:2 11 7 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Segoe UI Semilight";
+	panose-1:2 11 4 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Segoe UI Symbol";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Segoe UI Variable Small Light";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Segoe UI Variable Small Semilig";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Segoe UI Variable Small";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Segoe UI Variable Small Semibol";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Segoe UI Variable Text Light";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Segoe UI Variable Text Semiligh";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Segoe UI Variable Text";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Segoe UI Variable Text Semibold";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Segoe UI Variable Display Light";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Segoe UI Variable Display Semil";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Segoe UI Variable Display";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Segoe UI Variable Display Semib";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"\@SimSun";
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:NSimSun;
+	panose-1:2 1 6 9 3 1 1 1 1 1;}
+@font-face
+	{font-family:"\@NSimSun";
+	panose-1:2 1 6 9 3 1 1 1 1 1;}
+@font-face
+	{font-family:SimSun-ExtB;
+	panose-1:2 1 6 9 6 1 1 1 1 1;}
+@font-face
+	{font-family:"\@SimSun-ExtB";
+	panose-1:2 1 6 9 6 1 1 1 1 1;}
+@font-face
+	{font-family:"Sitka Small";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Sitka Small Semibold";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Sitka Text";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Sitka Text Semibold";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Sitka Subheading";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Sitka Subheading Semibold";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Sitka Heading";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Sitka Heading Semibold";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Sitka Display";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Sitka Display Semibold";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Sitka Banner";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Sitka Banner Semibold";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Trebuchet MS";
+	panose-1:2 11 6 3 2 2 2 2 2 4;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Webdings;
+	panose-1:5 3 1 2 1 5 9 6 7 3;}
+@font-face
+	{font-family:"Yu Gothic";
+	panose-1:2 11 4 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"\@Yu Gothic";
+	panose-1:2 11 4 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Yu Gothic UI";
+	panose-1:2 11 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"\@Yu Gothic UI";
+	panose-1:2 11 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Yu Gothic UI Semibold";
+	panose-1:2 11 7 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"\@Yu Gothic UI Semibold";
+	panose-1:2 11 7 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Yu Gothic Light";
+	panose-1:2 11 3 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"\@Yu Gothic Light";
+	panose-1:2 11 3 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Yu Gothic UI Light";
+	panose-1:2 11 3 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"\@Yu Gothic UI Light";
+	panose-1:2 11 3 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Yu Gothic Medium";
+	panose-1:2 11 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"\@Yu Gothic Medium";
+	panose-1:2 11 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Yu Gothic UI Semilight";
+	panose-1:2 11 4 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"\@Yu Gothic UI Semilight";
+	panose-1:2 11 4 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"HoloLens MDL2 Assets";
+	panose-1:5 10 1 2 1 1 1 1 1 1;}
+@font-face
+	{font-family:"\@Arial Unicode MS";
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Meiryo;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"\@Meiryo";
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"Meiryo UI";
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"\@Meiryo UI";
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"Wingdings 2";
+	panose-1:5 2 1 2 1 5 7 7 7 7;}
+@font-face
+	{font-family:"Wingdings 3";
+	panose-1:5 4 1 2 1 8 7 7 7 7;}
+@font-face
+	{font-family:"Book Antiqua";
+	panose-1:2 4 6 2 5 3 5 3 3 4;}
+@font-face
+	{font-family:"Century Gothic";
+	panose-1:2 11 5 2 2 2 2 2 2 4;}
+@font-face
+	{font-family:"Tempus Sans ITC";
+	panose-1:4 2 4 4 3 13 7 2 2 2;}
+@font-face
+	{font-family:Pristina;
+	panose-1:3 6 4 2 4 4 6 8 2 4;}
+@font-face
+	{font-family:Papyrus;
+	panose-1:3 7 5 2 6 5 2 3 2 5;}
+@font-face
+	{font-family:Mistral;
+	panose-1:3 9 7 2 3 4 7 2 4 3;}
+@font-face
+	{font-family:"Lucida Handwriting";
+	panose-1:3 1 1 1 1 1 1 1 1 1;}
+@font-face
+	{font-family:"Kristen ITC";
+	panose-1:3 5 5 2 4 2 2 3 2 2;}
+@font-face
+	{font-family:"Juice ITC";
+	panose-1:4 4 4 3 4 10 2 2 2 2;}
+@font-face
+	{font-family:"French Script MT";
+	panose-1:3 2 4 2 4 6 7 4 6 5;}
+@font-face
+	{font-family:"Freestyle Script";
+	panose-1:3 8 4 2 3 2 5 11 4 4;}
+@font-face
+	{font-family:"Bradley Hand ITC";
+	panose-1:3 7 4 2 5 3 2 3 2 3;}
+@font-face
+	{font-family:"Arial Narrow";
+	panose-1:2 11 6 6 2 2 2 3 2 4;}
+@font-face
+	{font-family:Garamond;
+	panose-1:2 2 4 4 3 3 1 1 8 3;}
+@font-face
+	{font-family:"Monotype Corsiva";
+	panose-1:3 1 1 1 1 2 1 1 1 1;}
+@font-face
+	{font-family:Algerian;
+	panose-1:4 2 7 5 4 10 2 6 7 2;}
+@font-face
+	{font-family:"Baskerville Old Face";
+	panose-1:2 2 6 2 8 5 5 2 3 3;}
+@font-face
+	{font-family:"Bauhaus 93";
+	panose-1:4 3 9 5 2 11 2 2 12 2;}
+@font-face
+	{font-family:"Bell MT";
+	panose-1:2 2 5 3 6 3 5 2 3 3;}
+@font-face
+	{font-family:"Berlin Sans FB";
+	panose-1:2 14 6 2 2 5 2 2 3 6;}
+@font-face
+	{font-family:"Bernard MT Condensed";
+	panose-1:2 5 8 6 6 9 5 2 4 4;}
+@font-face
+	{font-family:"Bodoni MT Poster Compressed";
+	panose-1:2 7 7 6 8 6 1 5 2 4;}
+@font-face
+	{font-family:"Britannic Bold";
+	panose-1:2 11 9 3 6 7 3 2 2 4;}
+@font-face
+	{font-family:Broadway;
+	panose-1:4 4 9 5 8 11 2 2 5 2;}
+@font-face
+	{font-family:"Brush Script MT";
+	panose-1:3 6 8 2 4 4 6 7 3 4;}
+@font-face
+	{font-family:"Californian FB";
+	panose-1:2 7 4 3 6 8 11 3 2 4;}
+@font-face
+	{font-family:Centaur;
+	panose-1:2 3 5 4 5 2 5 2 3 4;}
+@font-face
+	{font-family:Chiller;
+	panose-1:4 2 4 4 3 16 7 2 6 2;}
+@font-face
+	{font-family:"Colonna MT";
+	panose-1:4 2 8 5 6 2 2 3 2 3;}
+@font-face
+	{font-family:"Cooper Black";
+	panose-1:2 8 9 4 4 3 11 2 4 4;}
+@font-face
+	{font-family:"Footlight MT Light";
+	panose-1:2 4 6 2 6 3 10 2 3 4;}
+@font-face
+	{font-family:"Harlow Solid Italic";
+	panose-1:4 3 6 4 2 15 2 2 13 2;}
+@font-face
+	{font-family:Harrington;
+	panose-1:4 4 5 5 5 10 2 2 7 2;}
+@font-face
+	{font-family:"High Tower Text";
+	panose-1:2 4 5 2 5 5 6 3 3 3;}
+@font-face
+	{font-family:Jokerman;
+	panose-1:4 9 6 5 6 13 6 2 7 2;}
+@font-face
+	{font-family:"Kunstler Script";
+	panose-1:3 3 4 2 2 6 7 13 13 6;}
+@font-face
+	{font-family:"Lucida Bright";
+	panose-1:2 4 6 2 5 5 5 2 3 4;}
+@font-face
+	{font-family:"Lucida Calligraphy";
+	panose-1:3 1 1 1 1 1 1 1 1 1;}
+@font-face
+	{font-family:"Lucida Fax";
+	panose-1:2 6 6 2 5 5 5 2 2 4;}
+@font-face
+	{font-family:Magneto;
+	panose-1:4 3 8 5 5 8 2 2 13 2;}
+@font-face
+	{font-family:"Matura MT Script Capitals";
+	panose-1:3 2 8 2 6 6 2 7 2 2;}
+@font-face
+	{font-family:"Modern No\. 20";
+	panose-1:2 7 7 4 7 5 5 2 3 3;}
+@font-face
+	{font-family:"Niagara Engraved";
+	panose-1:4 2 5 2 7 7 3 3 2 2;}
+@font-face
+	{font-family:"Niagara Solid";
+	panose-1:4 2 5 2 7 7 2 2 2 2;}
+@font-face
+	{font-family:"Old English Text MT";
+	panose-1:3 4 9 2 4 5 8 3 8 6;}
+@font-face
+	{font-family:Onyx;
+	panose-1:4 5 6 2 8 7 2 2 2 3;}
+@font-face
+	{font-family:Parchment;
+	panose-1:3 4 6 2 4 7 8 4 8 4;}
+@font-face
+	{font-family:Playbill;
+	panose-1:4 5 6 3 10 6 2 2 2 2;}
+@font-face
+	{font-family:"Poor Richard";
+	panose-1:2 8 5 2 5 5 5 2 7 2;}
+@font-face
+	{font-family:Ravie;
+	panose-1:4 4 8 5 5 8 9 2 6 2;}
+@font-face
+	{font-family:"Informal Roman";
+	panose-1:3 6 4 2 3 4 6 11 2 4;}
+@font-face
+	{font-family:"Showcard Gothic";
+	panose-1:4 2 9 4 2 1 2 2 6 4;}
+@font-face
+	{font-family:"Snap ITC";
+	panose-1:4 4 10 7 6 10 2 2 2 2;}
+@font-face
+	{font-family:Stencil;
+	panose-1:4 4 9 5 13 8 2 2 4 4;}
+@font-face
+	{font-family:"Viner Hand ITC";
+	panose-1:3 7 5 2 3 5 2 2 2 3;}
+@font-face
+	{font-family:Vivaldi;
+	panose-1:3 2 6 2 5 5 6 9 8 4;}
+@font-face
+	{font-family:"Vladimir Script";
+	panose-1:3 5 4 2 4 4 7 7 3 5;}
+@font-face
+	{font-family:"Wide Latin";
+	panose-1:2 10 10 7 5 5 5 2 4 4;}
+@font-face
+	{font-family:"Tw Cen MT";
+	panose-1:2 11 6 2 2 1 4 2 6 3;}
+@font-face
+	{font-family:"Tw Cen MT Condensed";
+	panose-1:2 11 6 6 2 1 4 2 2 3;}
+@font-face
+	{font-family:"Script MT Bold";
+	panose-1:3 4 6 2 4 6 7 8 9 4;}
+@font-face
+	{font-family:"Rockwell Extra Bold";
+	panose-1:2 6 9 3 4 5 5 2 4 3;}
+@font-face
+	{font-family:"Rockwell Condensed";
+	panose-1:2 6 6 3 5 4 5 2 1 4;}
+@font-face
+	{font-family:Rockwell;
+	panose-1:2 6 6 3 2 2 5 2 4 3;}
+@font-face
+	{font-family:"Rage Italic";
+	panose-1:3 7 5 2 4 5 7 7 3 4;}
+@font-face
+	{font-family:"Perpetua Titling MT";
+	panose-1:2 2 5 2 6 5 5 2 8 4;}
+@font-face
+	{font-family:Perpetua;
+	panose-1:2 2 5 2 6 4 1 2 3 3;}
+@font-face
+	{font-family:"Palace Script MT";
+	panose-1:3 3 3 2 2 6 7 12 11 5;}
+@font-face
+	{font-family:"OCR A Extended";
+	panose-1:2 1 5 9 2 1 2 1 3 3;}
+@font-face
+	{font-family:"Maiandra GD";
+	panose-1:2 14 5 2 3 3 8 2 2 4;}
+@font-face
+	{font-family:"Lucida Sans Typewriter";
+	panose-1:2 11 5 9 3 5 4 3 2 4;}
+@font-face
+	{font-family:"Imprint MT Shadow";
+	panose-1:4 2 6 5 6 3 3 3 2 2;}
+@font-face
+	{font-family:"Goudy Stout";
+	panose-1:2 2 9 4 7 3 11 2 4 1;}
+@font-face
+	{font-family:"Goudy Old Style";
+	panose-1:2 2 5 2 5 3 5 2 3 3;}
+@font-face
+	{font-family:"Gloucester MT Extra Condensed";
+	panose-1:2 3 8 8 2 6 1 1 1 1;}
+@font-face
+	{font-family:"Gill Sans Ultra Bold Condensed";
+	panose-1:2 11 10 6 2 1 4 2 2 3;}
+@font-face
+	{font-family:"Gill Sans Ultra Bold";
+	panose-1:2 11 10 2 2 1 4 2 2 3;}
+@font-face
+	{font-family:"Gill Sans MT Condensed";
+	panose-1:2 11 5 6 2 1 4 2 2 3;}
+@font-face
+	{font-family:"Gill Sans MT";
+	panose-1:2 11 5 2 2 1 4 2 2 3;}
+@font-face
+	{font-family:"Gill Sans MT Ext Condensed Bold";
+	panose-1:2 11 9 2 2 1 4 2 2 3;}
+@font-face
+	{font-family:Gigi;
+	panose-1:4 4 5 4 6 16 7 2 13 2;}
+@font-face
+	{font-family:"Franklin Gothic Medium Cond";
+	panose-1:2 11 6 6 3 4 2 2 2 4;}
+@font-face
+	{font-family:"Franklin Gothic Heavy";
+	panose-1:2 11 9 3 2 1 2 2 2 4;}
+@font-face
+	{font-family:"Franklin Gothic Demi Cond";
+	panose-1:2 11 7 6 3 4 2 2 2 4;}
+@font-face
+	{font-family:"Franklin Gothic Demi";
+	panose-1:2 11 7 3 2 1 2 2 2 4;}
+@font-face
+	{font-family:"Franklin Gothic Book";
+	panose-1:2 11 5 3 2 1 2 2 2 4;}
+@font-face
+	{font-family:Forte;
+	panose-1:3 6 9 2 4 5 2 7 2 3;}
+@font-face
+	{font-family:"Felix Titling";
+	panose-1:4 6 5 5 6 2 2 2 10 4;}
+@font-face
+	{font-family:"Eras Medium ITC";
+	panose-1:2 11 6 2 3 5 4 2 8 4;}
+@font-face
+	{font-family:"Eras Light ITC";
+	panose-1:2 11 4 2 3 5 4 2 8 4;}
+@font-face
+	{font-family:"Eras Demi ITC";
+	panose-1:2 11 8 5 3 5 4 2 8 4;}
+@font-face
+	{font-family:"Eras Bold ITC";
+	panose-1:2 11 9 7 3 5 4 2 2 4;}
+@font-face
+	{font-family:"Engravers MT";
+	panose-1:2 9 7 7 8 5 5 2 3 4;}
+@font-face
+	{font-family:Elephant;
+	panose-1:2 2 9 4 9 5 5 2 3 3;}
+@font-face
+	{font-family:"Edwardian Script ITC";
+	panose-1:3 3 3 2 4 7 7 13 8 4;}
+@font-face
+	{font-family:"Curlz MT";
+	panose-1:4 4 4 4 5 7 2 2 2 2;}
+@font-face
+	{font-family:"Copperplate Gothic Light";
+	panose-1:2 14 5 7 2 2 6 2 4 4;}
+@font-face
+	{font-family:"Copperplate Gothic Bold";
+	panose-1:2 14 7 5 2 2 6 2 4 4;}
+@font-face
+	{font-family:"Century Schoolbook";
+	panose-1:2 4 6 4 5 5 5 2 3 4;}
+@font-face
+	{font-family:Castellar;
+	panose-1:2 10 4 2 6 4 6 1 3 1;}
+@font-face
+	{font-family:"Calisto MT";
+	panose-1:2 4 6 3 5 5 5 3 3 4;}
+@font-face
+	{font-family:"Bookman Old Style";
+	panose-1:2 5 6 4 5 5 5 2 2 4;}
+@font-face
+	{font-family:"Bodoni MT Condensed";
+	panose-1:2 7 6 6 8 6 6 2 2 3;}
+@font-face
+	{font-family:"Bodoni MT Black";
+	panose-1:2 7 10 3 8 6 6 2 2 3;}
+@font-face
+	{font-family:"Bodoni MT";
+	panose-1:2 7 6 3 8 6 6 2 2 3;}
+@font-face
+	{font-family:"Blackadder ITC";
+	panose-1:4 2 5 5 5 16 7 2 13 2;}
+@font-face
+	{font-family:"Arial Rounded MT Bold";
+	panose-1:2 15 7 4 3 5 4 3 2 4;}
+@font-face
+	{font-family:"Agency FB";
+	panose-1:2 11 5 3 2 2 2 2 2 4;}
+@font-face
+	{font-family:"Bookshelf Symbol 7";
+	panose-1:5 1 1 1 1 1 1 1 1 1;}
+@font-face
+	{font-family:"MS Reference Sans Serif";
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"MS Reference Specialty";
+	panose-1:5 0 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Berlin Sans FB Demi";
+	panose-1:2 14 8 2 2 5 2 2 3 6;}
+@font-face
+	{font-family:"Tw Cen MT Condensed Extra Bold";
+	panose-1:2 11 8 3 2 2 2 2 2 4;}
+@font-face
+	{font-family:"Lucida Sans";
+	panose-1:2 11 6 2 4 5 2 2 2 4;}
+@font-face
+	{font-family:"David Libre";
+	panose-1:0 0 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:OpenSymbol;
+	panose-1:5 1 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Scheherazade;
+	panose-1:1 0 6 0 2 0 0 2 0 3;}
+@font-face
+	{font-family:Amiri;
+	panose-1:0 0 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Caladea;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Noto Kufi Arabic";
+	panose-1:2 11 5 6 3 8 4 2 2 4;}
+@font-face
+	{font-family:"Gentium Basic";
+	panose-1:2 0 5 3 6 0 0 2 0 4;}
+@font-face
+	{font-family:"Linux Biolinum G";
+	panose-1:2 0 5 3 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Source Code Pro Black";
+	panose-1:2 11 8 9 3 4 3 2 2 4;}
+@font-face
+	{font-family:"EmojiOne Color";
+	panose-1:2 0 5 3 0 0 0 0 0 0;}
+@font-face
+	{font-family:Carlito;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"David CLM";
+	panose-1:2 0 6 3 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Liberation Sans Narrow";
+	panose-1:2 11 6 6 2 2 2 3 2 4;}
+@font-face
+	{font-family:KacstBook;
+	panose-1:2 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Liberation Mono";
+	panose-1:2 7 4 9 2 2 5 2 4 4;}
+@font-face
+	{font-family:"Source Sans Pro Black";
+	panose-1:2 11 8 3 3 4 3 2 2 4;}
+@font-face
+	{font-family:"Source Serif Pro Black";
+	panose-1:2 4 9 3 5 4 5 2 2 4;}
+@font-face
+	{font-family:Alef;
+	panose-1:0 0 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"DejaVu Math TeX Gyre";
+	panose-1:2 0 5 3 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Reem Kufi";}
+@font-face
+	{font-family:"Amiri Quran";
+	panose-1:0 0 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Frank Ruehl CLM";
+	panose-1:2 0 6 3 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Miriam CLM";
+	panose-1:2 0 6 3 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Miriam Mono CLM";
+	panose-1:2 0 5 3 0 0 0 0 0 0;}
+@font-face
+	{font-family:"DejaVu Sans";
+	panose-1:2 11 6 3 3 8 4 2 2 4;}
+@font-face
+	{font-family:"DejaVu Sans Light";
+	panose-1:2 11 2 3 3 8 4 2 2 4;}
+@font-face
+	{font-family:"DejaVu Sans Condensed";
+	panose-1:2 11 6 6 3 8 4 2 2 4;}
+@font-face
+	{font-family:"DejaVu Sans Mono";
+	panose-1:2 11 6 9 3 8 4 2 2 4;}
+@font-face
+	{font-family:"DejaVu Serif";
+	panose-1:2 6 6 3 5 6 5 2 2 4;}
+@font-face
+	{font-family:"DejaVu Serif Condensed";
+	panose-1:2 6 6 6 5 6 5 2 2 4;}
+@font-face
+	{font-family:"Gentium Book Basic";
+	panose-1:2 0 5 3 6 0 0 2 0 4;}
+@font-face
+	{font-family:KacstOffice;
+	panose-1:2 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Liberation Sans";
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:"Liberation Serif";
+	panose-1:2 2 6 3 5 4 5 2 3 4;}
+@font-face
+	{font-family:"Linux Libertine Display G";
+	panose-1:2 0 5 3 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Linux Libertine G";
+	panose-1:2 0 5 3 0 0 0 0 0 0;}
+@font-face
+	{font-family:Rubik;
+	panose-1:2 0 6 4 0 0 0 2 0 4;}
+@font-face
+	{font-family:"Noto Mono";
+	panose-1:2 11 6 9 3 8 4 2 2 4;}
+@font-face
+	{font-family:"Noto Naskh Arabic";
+	panose-1:2 11 5 2 4 5 4 2 2 4;}
+@font-face
+	{font-family:"Noto Naskh Arabic UI";
+	panose-1:2 11 5 2 4 5 4 2 2 4;}
+@font-face
+	{font-family:"Noto Sans";}
+@font-face
+	{font-family:"Noto Sans Cond";}
+@font-face
+	{font-family:"Noto Sans Light";}
+@font-face
+	{font-family:"Noto Sans Arabic";}
+@font-face
+	{font-family:"Noto Sans Arabic UI";}
+@font-face
+	{font-family:"Noto Sans Armenian";}
+@font-face
+	{font-family:"Noto Sans Georgian";
+	panose-1:2 11 5 2 4 5 4 2 2 4;}
+@font-face
+	{font-family:"Noto Sans Hebrew";}
+@font-face
+	{font-family:"Noto Sans Lao";
+	panose-1:2 11 5 2 4 5 4 2 2 4;}
+@font-face
+	{font-family:"Noto Sans Lisu";
+	panose-1:2 11 5 2 4 5 4 2 2 4;}
+@font-face
+	{font-family:"Noto Serif";}
+@font-face
+	{font-family:"Noto Serif Cond";}
+@font-face
+	{font-family:"Noto Serif Light";}
+@font-face
+	{font-family:"Noto Serif Armenian";}
+@font-face
+	{font-family:"Noto Serif Georgian";
+	panose-1:2 2 5 2 6 5 5 2 2 4;}
+@font-face
+	{font-family:"Noto Serif Hebrew";}
+@font-face
+	{font-family:"Noto Serif Lao";
+	panose-1:2 2 5 2 6 5 5 2 2 4;}
+@font-face
+	{font-family:"Source Code Pro";
+	panose-1:2 11 5 9 3 4 3 2 2 4;}
+@font-face
+	{font-family:"Source Code Pro ExtraLight";
+	panose-1:2 11 3 9 3 4 3 2 2 4;}
+@font-face
+	{font-family:"Source Code Pro Light";
+	panose-1:2 11 4 9 3 4 3 2 2 4;}
+@font-face
+	{font-family:"Source Code Pro Medium";
+	panose-1:2 11 5 9 3 4 3 2 2 4;}
+@font-face
+	{font-family:"Source Code Pro Semibold";
+	panose-1:2 11 6 9 3 4 3 2 2 4;}
+@font-face
+	{font-family:"Source Sans Pro";
+	panose-1:2 11 5 3 3 4 3 2 2 4;}
+@font-face
+	{font-family:"Source Sans Pro ExtraLight";
+	panose-1:2 11 3 3 3 4 3 2 2 4;}
+@font-face
+	{font-family:"Source Sans Pro Light";
+	panose-1:2 11 4 3 3 4 3 2 2 4;}
+@font-face
+	{font-family:"Source Sans Pro Semibold";
+	panose-1:2 11 6 3 3 4 3 2 2 4;}
+@font-face
+	{font-family:"Source Serif Pro";
+	panose-1:2 4 6 3 5 4 5 2 2 4;}
+@font-face
+	{font-family:"Source Serif Pro ExtraLight";
+	panose-1:2 4 2 3 5 4 5 2 2 4;}
+@font-face
+	{font-family:"Source Serif Pro Light";
+	panose-1:2 4 3 3 5 4 5 2 2 4;}
+@font-face
+	{font-family:"Source Serif Pro Semibold";
+	panose-1:2 4 7 3 5 4 5 2 2 4;}
+@font-face
+	{font-family:"OCR-A BT";
+	panose-1:2 15 5 1 2 2 4 2 3 4;}
+@font-face
+	{font-family:"OCR-B 10 BT";
+	panose-1:2 11 6 1 2 2 2 2 2 4;}
+@font-face
+	{font-family:"Swis721 Lt BT";
+	panose-1:2 11 4 3 2 2 2 2 2 4;}
+@font-face
+	{font-family:"Swis721 BT";
+	panose-1:2 11 5 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:"Swis721 Blk BT";
+	panose-1:2 11 9 4 3 5 2 2 2 4;}
+@font-face
+	{font-family:"Swis721 Hv BT";
+	panose-1:2 11 8 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:"Futura Md BT";
+	panose-1:2 11 6 2 2 2 4 2 3 3;}
+@font-face
+	{font-family:"Freehand521 BT";
+	panose-1:3 8 8 2 3 3 7 8 3 4;}
+@font-face
+	{font-family:"Exotc350 DmBd BT";
+	panose-1:4 3 7 5 5 11 2 2 10 3;}
+@font-face
+	{font-family:"Embassy BT";
+	panose-1:3 3 6 2 4 5 7 9 12 3;}
+@font-face
+	{font-family:"EngraversGothic BT";
+	panose-1:2 11 5 7 2 2 3 2 2 4;}
+@font-face
+	{font-family:"Geometr415 Blk BT";
+	panose-1:2 11 8 2 2 2 4 2 3 3;}
+@font-face
+	{font-family:"Geometr212 BkCn BT";
+	panose-1:2 11 6 3 2 2 4 2 2 4;}
+@font-face
+	{font-family:"NewsGoth Cn BT";
+	panose-1:2 11 5 6 2 2 2 3 2 4;}
+@font-face
+	{font-family:"Swis721 LtEx BT";
+	panose-1:2 11 5 5 2 2 2 2 2 4;}
+@font-face
+	{font-family:"News706 BT";
+	panose-1:2 4 8 4 6 7 5 2 2 4;}
+@font-face
+	{font-family:"Clarendon Blk BT";
+	panose-1:2 4 9 5 5 5 5 2 2 4;}
+@font-face
+	{font-family:"Exotc350 Bd BT";
+	panose-1:4 3 8 5 5 11 2 2 10 3;}
+@font-face
+	{font-family:"Geometr706 BlkCn BT";
+	panose-1:2 11 7 6 3 5 3 3 2 4;}
+@font-face
+	{font-family:"Kaufmann BT";
+	panose-1:3 8 5 2 3 3 7 8 3 3;}
+@font-face
+	{font-family:"Humnst777 Lt BT";
+	panose-1:2 11 4 2 3 5 4 2 2 4;}
+@font-face
+	{font-family:"Humnst777 BT";
+	panose-1:2 11 6 3 3 5 4 2 2 4;}
+@font-face
+	{font-family:"Humnst777 Blk BT";
+	panose-1:2 11 8 3 3 5 4 3 2 4;}
+@font-face
+	{font-family:"Century751 BT";
+	panose-1:2 4 5 3 5 5 5 2 3 4;}
+@font-face
+	{font-family:"TypoUpright BT";
+	panose-1:3 2 7 2 3 8 7 5 7 5;}
+@font-face
+	{font-family:"GeoSlab703 MdCn BT";
+	panose-1:2 6 5 6 2 2 5 5 4 3;}
+@font-face
+	{font-family:"DeVinne Txt BT";
+	panose-1:2 2 6 4 7 7 5 2 3 3;}
+@font-face
+	{font-family:"Century725 Cn BT";
+	panose-1:2 4 5 6 7 7 5 2 2 4;}
+@font-face
+	{font-family:"Schadow BT";
+	panose-1:2 6 5 4 5 5 5 3 2 4;}
+@font-face
+	{font-family:"Humnst777 Cn BT";
+	panose-1:2 11 5 6 3 5 4 2 2 4;}
+@font-face
+	{font-family:"Humnst777 BlkCn BT";
+	panose-1:2 11 8 3 3 5 4 2 2 4;}
+@font-face
+	{font-family:"Century751 No2 BT";
+	panose-1:2 4 6 4 5 5 5 2 2 4;}
+@font-face
+	{font-family:"Century751 SeBd BT";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"CentSchbkCyrill BT";
+	panose-1:2 4 6 3 5 7 5 2 3 3;}
+@font-face
+	{font-family:DFGothic-EB;
+	panose-1:2 1 6 9 1 1 1 1 1 1;}
+@font-face
+	{font-family:"\@DFGothic-EB";
+	panose-1:2 1 6 9 1 1 1 1 1 1;}
+@font-face
+	{font-family:\FF24\FF26\4E2D\592A\6977\66F8\4F53;
+	panose-1:2 1 6 9 1 1 1 1 1 1;}
+@font-face
+	{font-family:"\@\FF24\FF26\4E2D\592A\6977\66F8\4F53";
+	panose-1:2 1 6 9 1 1 1 1 1 1;}
+@font-face
+	{font-family:DFMincho-UB;
+	panose-1:2 1 6 9 1 1 1 1 1 1;}
+@font-face
+	{font-family:"\@DFMincho-UB";
+	panose-1:2 1 6 9 1 1 1 1 1 1;}
+@font-face
+	{font-family:DFMincho-SU;
+	panose-1:2 1 6 9 1 1 1 1 1 1;}
+@font-face
+	{font-family:"\@DFMincho-SU";
+	panose-1:2 1 6 9 1 1 1 1 1 1;}
+@font-face
+	{font-family:\FF24\FF26\660E\671D\4F53W5;
+	panose-1:2 1 6 9 1 1 1 1 1 1;}
+@font-face
+	{font-family:"\@\FF24\FF26\660E\671D\4F53W5";
+	panose-1:2 1 6 9 1 1 1 1 1 1;}
+@font-face
+	{font-family:DFPOP1-W9;
+	panose-1:2 1 6 9 1 1 1 1 1 1;}
+@font-face
+	{font-family:"\@DFPOP1-W9";
+	panose-1:2 1 6 9 1 1 1 1 1 1;}
+@font-face
+	{font-family:"Swis721 WGL4 BT";
+	panose-1:2 11 5 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:"Swis721 Cn BT";
+	panose-1:2 11 5 6 2 2 2 3 2 4;}
+@font-face
+	{font-family:"Bodoni Bk BT";
+	panose-1:2 7 6 3 7 7 6 2 3 3;}
+@font-face
+	{font-family:"Bodoni Bd BT";
+	panose-1:2 7 8 3 8 7 6 2 3 3;}
+@font-face
+	{font-family:"NewsGoth BT";
+	panose-1:2 11 5 3 2 2 3 2 2 4;}
+@font-face
+	{font-family:"NewsGoth Lt BT";
+	panose-1:2 11 4 6 2 2 3 2 2 4;}
+@font-face
+	{font-family:"Futura Bk BT";
+	panose-1:2 11 5 2 2 2 4 2 3 3;}
+@font-face
+	{font-family:"Swis721 BlkCn BT";
+	panose-1:2 11 8 6 3 5 2 4 2 4;}
+@font-face
+	{font-family:"Square721 BT";
+	panose-1:2 11 5 4 2 2 2 6 2 4;}
+@font-face
+	{font-family:"Square721 Cn BT";
+	panose-1:2 11 4 6 2 2 2 5 2 4;}
+@font-face
+	{font-family:"Clarendon Lt BT";
+	panose-1:2 4 6 4 4 5 5 2 2 4;}
+@font-face
+	{font-family:"Clarendon BT";
+	panose-1:2 4 7 4 4 5 5 2 2 4;}
+@font-face
+	{font-family:"Humanst521 Lt BT";
+	panose-1:2 11 4 2 2 2 4 2 3 4;}
+@font-face
+	{font-family:"Humanst521 BT";
+	panose-1:2 11 6 2 2 2 4 2 2 4;}
+@font-face
+	{font-family:"GeoSlab703 Md BT";
+	panose-1:2 6 6 3 2 2 5 2 4 3;}
+@font-face
+	{font-family:"News701 BT";
+	panose-1:2 4 6 3 4 5 5 9 2 4;}
+@font-face
+	{font-family:"MT Extra";
+	panose-1:5 5 1 2 1 2 5 2 2 2;}
+@font-face
+	{font-family:"Cascadia Code ExtraLight";
+	panose-1:2 11 6 9 2 0 0 2 0 4;}
+@font-face
+	{font-family:"Cascadia Code Light";
+	panose-1:2 11 6 9 2 0 0 2 0 4;}
+@font-face
+	{font-family:"Cascadia Code SemiLight";
+	panose-1:2 11 6 9 2 0 0 2 0 4;}
+@font-face
+	{font-family:"Cascadia Code";
+	panose-1:2 11 6 9 2 0 0 2 0 4;}
+@font-face
+	{font-family:"Cascadia Code SemiBold";
+	panose-1:2 11 6 9 2 0 0 2 0 4;}
+@font-face
+	{font-family:"Cascadia Mono ExtraLight";
+	panose-1:2 11 6 9 2 0 0 2 0 4;}
+@font-face
+	{font-family:"Cascadia Mono Light";
+	panose-1:2 11 6 9 2 0 0 2 0 4;}
+@font-face
+	{font-family:"Cascadia Mono SemiLight";
+	panose-1:2 11 6 9 2 0 0 2 0 4;}
+@font-face
+	{font-family:"Cascadia Mono";
+	panose-1:2 11 6 9 2 0 0 2 0 4;}
+@font-face
+	{font-family:"Cascadia Mono SemiBold";
+	panose-1:2 11 6 9 2 0 0 2 0 4;}
+@font-face
+	{font-family:Haettenschweiler;
+	panose-1:2 11 7 6 4 9 2 6 2 4;}
+@font-face
+	{font-family:"MS Outlook";
+	panose-1:5 1 1 0 1 0 0 0 0 0;}
+ /* Style Definitions */
+ p.MsoNormal_3, li.MsoNormal_3, div.MsoNormal_3
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoBodyText_3, li.MsoBodyText_3, div.MsoBodyText_3
+	{mso-style-link:"Основной текст Знак";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoAcetate_3, li.MsoAcetate_3, div.MsoAcetate_3
+	{mso-style-link:"Текст выноски Знак";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+p.MsoListParagraph_3, li.MsoListParagraph_3, div.MsoListParagraph_3
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraph_3CxSpFirst, li.MsoListParagraph_3CxSpFirst, div.MsoListParagraph_3CxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraph_3CxSpMiddle, li.MsoListParagraph_3CxSpMiddle, div.MsoListParagraph_3CxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraph_3CxSpLast, li.MsoListParagraph_3CxSpLast, div.MsoListParagraph_3CxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+span.a_3pple-converted-space_3
+	{mso-style-name:apple-converted-space;}
+span.a_3
+	{mso-style-name:"Текст выноски Знак";
+	mso-style-link:"Текст выноски";
+	font-family:"Tahoma","sans-serif";}
+p.a_30, li.a_30, div.a_30
+	{mso-style-name:Программа;
+	margin-top:2.0pt;
+	margin-right:0cm;
+	margin-bottom:2.0pt;
+	margin-left:0cm;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:9.0pt;
+	font-family:"Courier New";
+	letter-spacing:-.4pt;}
+span.Courier_3
+	{mso-style-name:Courier;
+	font-family:"Courier New";}
+p.a_31, li.a_31, div.a_31
+	{mso-style-name:список;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:4.0pt;
+	margin-left:14.15pt;
+	text-align:justify;
+	text-indent:-14.15pt;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.a_32, li.a_32, div.a_32
+	{mso-style-name:Отступ;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:4.0pt;
+	margin-left:14.2pt;
+	text-align:justify;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+span.a_33
+	{mso-style-name:"Основной текст Знак";
+	mso-style-link:"Основной текст";
+	font-family:"Calibri","sans-serif";}
+p.a_34, li.a_34, div.a_34
+	{mso-style-name:Рис_подпись;
+	margin-top:5.0pt;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:0cm;
+	line-height:97%;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:8.0pt;
+	font-family:"Times New Roman","serif";}
+ins
+	{text-decoration:none;}
+span.msoDel_3
+	{mso-style-name:"";
+	text-decoration:line-through;
+	color:red;}
+.MsoChpDefault_3
+	{font-size:10.0pt;}
+.MsoPapDefault_3
+	{margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:2.0cm 42.5pt 2.0cm 3.0cm;}
+div.WordSection1_3
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+
