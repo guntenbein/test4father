@@ -1,4 +1,4 @@
-var W_vvv=new Array(101,101,101,101,101,101,101,101,101,101,101);
+Ôªøvar W_vvv=new Array(101,101,101,101,101,101,101,101,101,101,101);
 var W_vvvv=new Array(101,101,101,101,101,101);
 var ttN;
 var Autor=new Array();
@@ -19,8 +19,8 @@ var PPP_T;
 var isOld=false;
 var isIE=false;
 var QQQ=new Array();
-var da="ƒ¿“¿";
-var wrr="¬–≈Ãﬂ";
+var da="–î–ê–¢–ê";
+var wrr="–í–†–ï–ú–Ø";
 var QQ=new Array();
 var name_browser=navigator.appName;
 if(name_browser=="Netscape") isNC=true;
