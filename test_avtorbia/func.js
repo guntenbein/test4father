@@ -1,4 +1,4 @@
-var pt="";
+ï»¿var pt="";
 var KAN=1;
 var KV9=0;
 var Kol_ris_str=-1;
@@ -1246,8 +1246,8 @@ alert("kt="+kt);
 for(kkR=0; kkR<10,document.forms[kt].elements[kkR].value!="     "; kkR++) alert(kkR);
 //kkR=6;
 //alert("Ball        00001");
-alert("êàòåãîðèÿ = "+Kategoria[tema1][nm]);
-// êàòåãîðèÿ 1111111111111111111111111111
+alert("ÐºÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ñ = "+Kategoria[tema1][nm]);
+// ÐºÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ñ 1111111111111111111111111111
 if(Kategoria[tema1][nm]==1){
 MM= Mas_check[kt-1].length;
 alert("MM="+MM);
@@ -1261,8 +1261,8 @@ for(let i_t=1;i_t<=MM;i_t++)
            if(k_B!=k_M ) kod=false;
                }
                                     }
-// êàòåãîðèÿ   111111111111111111111111111
-// êàòåãîðèÿ 3333333333333333333
+// ÐºÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ñ   111111111111111111111111111
+// ÐºÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ñ 3333333333333333333
 if(Kategoria[tema1][nm]==3){
 MM= Mas_check[kt-1].length;
 kod=true;
@@ -1275,7 +1275,7 @@ for(let i_t=1;i_t<=MM;i_t++)
           if(k_b!=k_M) kod=false;;
                          }
                                     }
-// êàòåãîðèÿ 2222222222222222222222222
+// ÐºÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ñ 2222222222222222222222222
 
 if(Kategoria[tema1][nm]==2){
 kod=false; kkkp=kkR+1;
@@ -1298,7 +1298,7 @@ GGG=str_replace(" ","",GGG);
 if(SY==GGG) kod=true;
                                      }
                                        }
-// êàòåãîðèÿ 2222222222222222222222222
+// ÐºÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ñ 2222222222222222222222222
 alert("kod="+kod);
    if(kod){  SSS_in+=1;
                  SSS_end+=Inok_dd[kt];
